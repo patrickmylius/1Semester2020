@@ -14,7 +14,5 @@ public class HelloWorld {
         name = input.nextLine();
 
         System.out.println("Hi " + name + " my name is Siri");
-
-
     }
 }
