@@ -30,7 +30,7 @@ public class Opgave5 {
         tier = x/10;
         if (tier > 0 && tier <= 9)
             System.out.println(x + " tilhører intervallet" + " [" + tier + "0:" + tier + "9" + "]");
-        else System.out.println("FAIL");
+        else System.out.println("fail");
         //faktisk input "99 tilhører intervallet [90:99]"
         //test resultat: pass
 
