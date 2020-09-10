@@ -1,0 +1,59 @@
+        //TEST A
+        //Evaluer: x <= 5 && z != y
+        //TESTCASE
+        //Input: x = 10, y = 12 , z = 7.
+        //Forventet OUTPUT: true
+        //Faktisk output: true
+        //Testresultat: PASS
+
+        //TEST B (Nye variabler)
+        //Evaluer følgende boolske udtryk
+        //x == 5 || x == y && z == 3
+        //TESTCASE
+        //Input: x = 10, y = 2, z = 7
+        //Forventet output: false
+        //Faktisk output: false
+        //Test resultat: pass
+
+        //TEST C
+        //Evaluer følgende boolske udtryk
+        //x / y > z / x
+        //TESTCASE
+        //Input: x = 5, y = 8, z = 3
+        //Forventet output: true
+        //Faktisk output: false
+        //test resultat: fail
+
+        //TEST C (Nye variabler)
+        //Evaluer følgende udtryk
+        //x / y > z / x
+        //TESTCASE
+        //Input: x = 7, y = 1, z = 6
+        //Forventet output: true
+        //Faktisk output: true
+        //test resultat: pass
+
+        //TEST D
+        //Evaluer følgende udtryk
+        //!( x != y - z ) == false
+        //TESTCASE
+        //Input: x = 5, y = 8, z = 3
+        //Forventet output: false
+        //Faktisk output: false
+        //test resultutat: pass
+
+        //TEST E
+        //Evaluer følgende boolske udtryk
+        //2 * x != x || x == 0
+        //Input x = 5, y = 8, z = 3.
+        //Forventet OUTPUT: True
+        //Faktisk output: true
+        //Test resultat: pass
+
+        //TEST F
+        //Evaluer følgende boolske udtryk
+        //2 * x != x || x == 0
+        //Input x = 5, y = 8, z = 3.
+        //Forventet OUTPUT: True
+        //Faktisk output: true
+        //Test resultat = PASS

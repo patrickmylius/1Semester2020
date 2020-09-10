@@ -4,6 +4,9 @@ public class Opgave1 {
         int y = 8;
         int z = 3;
         //TEST A
+        //Evaluer følgende boolske udtryk udtryk
+        //x <= 5 && z != y
+        //TESTCASE
         //Input: x = 10, y = 12 , z = 7.
         //Forventet OUTPUT: true
         boolean a = x <= 5 && z != y;
@@ -15,39 +18,48 @@ public class Opgave1 {
         //Testresultat: PASS
 
         //TEST B
-        //Input x = 5, y = 8, z = 3.
-        //Forventet OUTPUT: true
+        //Evaluer følgende boolske udtryk
+        //x == 5 || x == y && z == 3
+        //Input: x = 5, y = 8, z = 3
+        //Forventet output: true
         boolean b = x == 5 || x == y && z == 3;
         if (b == true)
             System.out.println("B: PASS");
         else
             System.out.println("B: FAIL");
-        //Faktisk output: True
-        //Testresultat: PASS
+        //Faktisk output: true
+        //Test resultat: pass
 
         //TEST C
+        //Evaluer følgende boolske udtryk
+        //x / y > z / x
+        //TESTCASE
         //Input x = 5, y = 8, z = 3.
-        //Forventet OUTPUT: True
+        //Forventet OUTPUT: false
         boolean c = x / y > z / x;
         if (c == false)
             System.out.println("C: PASS");
         else
             System.out.println("C: FAIL");
-        //Faktisk output: PASS
-        //testresultat: true
+        //Faktisk output: false
+        //testresultat: Pass
 
         //TEST D
+        //Evaluer følgende boolske udtryk
+        //TESTCASE
         //Input x = 5, y = 8, z = 3.
-        //Forventet OUTPUT: True
+        //Forventet OUTPUT: false
         boolean d = !(x != y - z) == false;
-        if (d == false)
+        if (d == true)
             System.out.println("D: PASS");
         else
             System.out.println("D: FAIL");
-        //Faktisk output: true
-        //Test resultat: Pass
+        //Faktisk output: false
+        //Test resultat: FAIL
 
         //TEST E
+        //Evaluer følgende boolske udtryk
+        //2 * x != x || x == 0
         //Input x = 5, y = 8, z = 3.
         //Forventet OUTPUT: True
         boolean e = 2 * x != x || x == 0;
@@ -59,6 +71,8 @@ public class Opgave1 {
         //Test resultat: pass
 
         //TEST F
+        //Evaluer følgende boolske udtryk
+        //2 * x != x || x == 0
         //Input x = 5, y = 8, z = 3.
         //Forventet OUTPUT: True
         boolean f = ! true || ! false;
