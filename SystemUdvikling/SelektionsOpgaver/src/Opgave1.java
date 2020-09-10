@@ -22,14 +22,14 @@ public class Opgave1 {
         //x == 5 || x == y && z == 3
         //TESTCASE
         //Input: x = 5, y = 8, z = 3
-        //Forventet output: true
+        //Forventet output: false
         boolean b = x == 5 || x == y && z == 3;
-        if (b == true)
+        if (b == false)
             System.out.println("B: PASS");
         else
             System.out.println("B: FAIL");
-        //Faktisk output: true
-        //Test resultat: pass
+        //Faktisk output: false
+        //Test resultat: PASS
 
         //TEST C
         //Evaluer følgende boolske udtryk
@@ -49,7 +49,7 @@ public class Opgave1 {
         //Evaluer følgende boolske udtryk
         //TESTCASE
         //Input x = 5, y = 8, z = 3.
-        //Forventet OUTPUT: false
+        //Forventet OUTPUT: true
         boolean d = !(x != y - z) == false;
         if (d == true)
             System.out.println("D: PASS");
