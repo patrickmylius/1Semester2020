@@ -20,6 +20,7 @@ public class Opgave1 {
         //TEST B
         //Evaluer følgende boolske udtryk
         //x == 5 || x == y && z == 3
+        //TESTCASE
         //Input: x = 5, y = 8, z = 3
         //Forventet output: true
         boolean b = x == 5 || x == y && z == 3;
@@ -60,6 +61,7 @@ public class Opgave1 {
         //TEST E
         //Evaluer følgende boolske udtryk
         //2 * x != x || x == 0
+        //TESTCASE
         //Input x = 5, y = 8, z = 3.
         //Forventet OUTPUT: True
         boolean e = 2 * x != x || x == 0;
@@ -71,8 +73,9 @@ public class Opgave1 {
         //Test resultat: pass
 
         //TEST F
-        //Evaluer følgende boolske udtryk
+        //Evaluer følgende boolske udtryk'
         //2 * x != x || x == 0
+        //TESTCASE
         //Input x = 5, y = 8, z = 3.
         //Forventet OUTPUT: True
         boolean f = ! true || ! false;
