@@ -1,13 +1,12 @@
 public class Opgave2 {
     public static void main(String[] args) {
+        //TESTCASE
         //Input x = 41, y = 67
         //forventet output = "Summen er større end hundrede"
-        //program kode
         int x = 41;
         int y = 67;
-        String output = "";
-        int resultat = 41 + 67;
-
+        String output = "Summen er ikke større end hundrede";
+        int resultat = x + y;
         if (resultat > 100)
             output = "Summen er større end hundrede";
         System.out.println(output);
@@ -16,33 +15,34 @@ public class Opgave2 {
             System.out.println("PASS");
         else
             System.out.println("FAIL");
-        //faktisk output = PASS
+        //faktisk output = "Summen er større end hundrede"
+        //test resultat: pass
 
+        //TESTCASE
         //Input x = 30, y = 69
-        //forventet output = "";
-        //Program code
+        //forventet output = "Summen er ikke større end hundrede";
         x = 30;
-        y = 70;
-        output = "";
-        resultat = 30 + 70;
-
+        y = 69;
+        output = "Summen er ikke større end hundrede";
+        resultat = x + y;
         if (resultat > 100)
             output = "Summen er større end hundrede";
         System.out.println(output);
         //Testkode
-        if (output == "")
+        if (output == "Summen er ikke større end hundrede")
             System.out.println("PASS");
         else
             System.out.println("FAIL");
+        //faktisk output: "Summen er ikke større end hundrede";
+        //Test resultat: pass
 
+        //TESTCASE
         //Input x = 100, y = 100
         //forventet output = "Summen er større end hundrede"
-        //Program code
         x = 100;
         y = 100;
-        output = "";
-        resultat = 100 + 100;
-
+        output = "Summen er ikke større end hundrede";
+        resultat = x + y;
         if (resultat > 100)
             output = "Summen er større end hundrede";
         System.out.println(output);
@@ -51,5 +51,7 @@ public class Opgave2 {
             System.out.println("PASS");
         else
             System.out.println("FAIL");
+        //faktisk output: "Summen er større end hundrede"
+        //test resultat: pass
     }
 }

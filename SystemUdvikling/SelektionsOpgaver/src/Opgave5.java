@@ -15,10 +15,10 @@ public class Opgave5 {
         //TESTCASE
         //Input: x = 62, tier = x/10
         //forventet output: "62 tilhører [60:69]"
-    int x = 62;
-    int tier = x/10;
-    if (tier > 0 && tier <= 9)
-        System.out.println(x + " tilhører intervallet" + " [" + tier + "0:" + tier + "9" + "]");
+        int x = 62;
+        int tier = x / 10;
+        if (tier > 0 && tier <= 9)
+            System.out.println(x + " tilhører intervallet" + " [" + tier + "0:" + tier + "9" + "]");
         else System.out.println("FAIL");
         //faktisk output: "62 tilhører [60:69]"
         //Test resultat: pass
@@ -27,7 +27,7 @@ public class Opgave5 {
         //Input: x = 99, tier = x/10
         //forventet output: "99 tilhører intervallet [90:99]"
         x = 99;
-        tier = x/10;
+        tier = x / 10;
         if (tier > 0 && tier <= 9)
             System.out.println(x + " tilhører intervallet" + " [" + tier + "0:" + tier + "9" + "]");
         else System.out.println("fail");
@@ -38,7 +38,7 @@ public class Opgave5 {
         //Input: x = 101, tier = x/10
         //forventet output: fail
         x = 101;
-        tier = x/10;
+        tier = x / 10;
         if (tier > 0 && tier <= 9)
             System.out.println(x + " tilhører intervallet" + " [" + tier + "0:" + tier + "9" + "]");
         else System.out.println("fail");
@@ -49,7 +49,7 @@ public class Opgave5 {
         //Input: x = -1, tier = x/10
         //forventet output: "fail"
         x = -1;
-        tier = x/10;
+        tier = x / 10;
         if (tier > 0 && tier <= 9)
             System.out.println(x + " tilhører intervallet" + " [" + tier + "0:" + tier + "9" + "]");
         else System.out.println("fail");

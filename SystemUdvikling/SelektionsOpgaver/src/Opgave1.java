@@ -78,7 +78,7 @@ public class Opgave1 {
         //TESTCASE
         //Input x = 5, y = 8, z = 3.
         //Forventet OUTPUT: True
-        boolean f = ! true || ! false;
+        boolean f = !true || !false;
         if (f = true)
             System.out.println("D: PASS");
         else
