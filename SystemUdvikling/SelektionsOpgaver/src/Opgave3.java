@@ -16,6 +16,7 @@ public class Opgave3 {
     if (first == second)
       System.out.println(first + " and " + second + " first and second variable are equal");
     //faktisk output "second variable is higher than the first variable"
+    //test resultat: pass
 
     //Input 2354234, 2325342
     //forventet output = "first variable is higher than the second variable"
@@ -28,6 +29,7 @@ public class Opgave3 {
     if (first == second)
     System.out.println(first + " and " + second + " first and second variable are equal");
     //faktisk output "first variable is higher than the second variable"
+    //test resultat: pass
 
     //Input 500, 500
     //forventet output = "first and second varaible are equal"
@@ -39,6 +41,7 @@ public class Opgave3 {
       System.out.println(first + " first varaible is higher than the second varaible");
     if (first == second)
       System.out.println(first + " and " + second + " first and second variable are equal");
-    //faktisk output "first and second variable are equal"
+    //faktisk output "first and second variable are equal"'
+    //test resultat: pass
   }
 }

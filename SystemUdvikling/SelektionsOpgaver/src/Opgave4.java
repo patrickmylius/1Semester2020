@@ -17,7 +17,7 @@ public class Opgave4 {
             if (first == second && first == third)
                 System.out.println(first + " and " + second + " and " + third + " are all equal ");
             //faktisk output: "45 + third variable are the highest"
-            //testresultat: pass
+            //test resultat: pass
 
             //Input: first = 2354234, 2325342, third = 2334555
             //forventet output = "first variable is higher than the second variable"
@@ -33,7 +33,7 @@ public class Opgave4 {
             if (first == second && first == third)
             System.out.println(first + " and " + second + " and " + third + " are all equal ");
             //faktisk output "2354234 first variable are the highest"
-            //testresultat: pass
+            //test resultat: pass
 
             //Input: first = 500, second = 500, third = 600
             //forventet output: "500 first 500 second 500 third variables, are all equal"
@@ -49,6 +49,6 @@ public class Opgave4 {
             if (first == second && first == third)
             System.out.println(first + " first " + second + " second " + third + " third variables, are all equal ");
             //forventet output: "500 first 500 second 500 third variables, are all equal"
-            //testresultat: pass
+            //test resultat: pass
     }
 }
