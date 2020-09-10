@@ -10,8 +10,8 @@ public class testFakultet {
         int c = -5;
         int fakultet = 1;
 
-        //Input 5
-        //forventet output 120 PASS
+        //Input: 5
+        //forventet: output 120
         for (int i = n; i > 1 ; i--) {
             fakultet *= i;
         }
@@ -21,11 +21,12 @@ public class testFakultet {
                 System.out.println("PASS");
             else
                 System.out.println("FAIL");
-            //faktisk output 120 PASS;
+            //faktisk output 120
+            //testresultat pass
 
 
-        //input 4
-        //forventet output 24 PASS
+        //input: 4
+        //forventet: output 24
         fakultet = 1;
         for (int i = x; i > 1 ; i--) {
             fakultet *= i;
@@ -36,13 +37,15 @@ public class testFakultet {
                 System.out.println("PASS");
             else
                 System.out.println("FAIL");
-            //faktisk output 24
+            //faktisk output: 24
+            //Testresultat: pass
 
         //input 3
         //forventet output 6
         fakultet = 1;
         for (int i = z; i > 1 ; i--) {
             fakultet *= i;
+        }
             System.out.println(fakultet);
 
             if (fakultet == 6)
@@ -50,22 +53,23 @@ public class testFakultet {
             else
                 System.out.println("FAIL");
             //faktisk output 6
-        }
-        //input 2
-        //forventet output 2
+            //testresultat "PASS"
+
+        //input: 2
+        //forventet: output 2
         fakultet = 1;
         for (int i = f; i > 1 ; i--) {
             fakultet *= i;
+        }
             System.out.println(fakultet);
-
             if (fakultet == 2)
                 System.out.println("PASS");
             else
                 System.out.println("FAIL");
             //faktisk output 2
-        }
-        //input 0
-        //forventet output 1
+
+        //input: 0
+        //forventet: output 1
         fakultet = 1;
         for (int i = p; i > 1 ; i--) {
             fakultet *= i;
@@ -76,21 +80,23 @@ public class testFakultet {
                 System.out.println("PASS");
             else
                 System.out.println("FAIL");
-            //faktisk output null
+            //faktisk output: 1
+            //testresultat: pass
 
-        //input -5
-        //forventet output
+        //input: -5
+        //forventet: output 1
         fakultet = 1;
         for (int i = c; i > 1 ; i--) {
             fakultet *= i;
         }
             System.out.println(fakultet);
 
-            if (fakultet == 0 )
+            if (fakultet == 1 )
                 System.out.println("PASS");
             else
                 System.out.println("FAIL");
-            //faktisk output null
+            //faktisk: output 1
+            //testresultat: pass
 
 
     }
