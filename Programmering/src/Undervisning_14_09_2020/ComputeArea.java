@@ -1,4 +1,5 @@
 package Undervisning_14_09_2020;
+import java.util.Scanner;
 
 public class ComputeArea {
     public static void main(String[] args) {
@@ -15,6 +16,16 @@ public class ComputeArea {
         //Finds new area
         double area2 = radius * radius * PI;
         //Prints area for cirlce with a radius of 2.0 to console
-        System.out.println("The area is" + " " + area2 + " " + "for radius" + " " + radius);
+        System.out.println("The area is" + " " + area2 + "  " + "for radius" + " " + radius);
+
+        //initizalize scanner, sets name to input
+        Scanner input = new Scanner(System.in);
+        System.out.println("You decide the radius now: ");
+        //Takes input from console, sets it to new "radius"
+        radius = input.nextDouble();
+        //Finds new area
+        double area3 = radius * radius * PI;
+        //Prints area for circle with the given radius.
+        System.out.println("The area is" + " " + area3 + " " + "for radius" + " " + radius);
     }
 }
