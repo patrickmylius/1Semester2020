@@ -20,7 +20,7 @@ public class ComputeArea {
 
         //initizalize scanner, sets name to input
         Scanner input = new Scanner(System.in);
-        System.out.println("You decide the radius now: ");
+        System.out.print("You decide the radius now: ");
         //Takes input from console, sets it to new "radius"
         radius = input.nextDouble();
         //Finds new area

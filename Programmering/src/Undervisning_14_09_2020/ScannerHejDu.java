@@ -5,10 +5,12 @@ public class ScannerHejDu {
         //sets Scanner to input
         Scanner input = new Scanner(System.in);
         //souts user for an input in console
-        System.out.println("Hvad er dit navn?: ");
+        System.out.print("Hvad er dit navn?: ");
         //sets users input to String navn
         String navn = input.next();
         //souts "Hej" + user input
         System.out.println("Hej " + navn);
+
+
     }
 }
