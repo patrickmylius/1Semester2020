@@ -1,4 +1,4 @@
-public class Opgave3 {
+public class Selektion_03 {
     //TEST CASE Lav et program der:
     //Erklærer to variable first og second.
     //Sætter first og second til værdier du selv vælger

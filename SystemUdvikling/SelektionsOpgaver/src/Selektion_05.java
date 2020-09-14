@@ -1,6 +1,6 @@
 import javax.swing.*;
 
-public class Opgave5 {
+public class Selektion_05 {
     /* I denne opgave skal vi arbejde med intervaller.
     Lav et program der:
     Erklærer en variable x.

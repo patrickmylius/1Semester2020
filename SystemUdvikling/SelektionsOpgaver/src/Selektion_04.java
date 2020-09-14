@@ -1,4 +1,4 @@
-public class Opgave4 {
+public class Selektion_04 {
     /*Lav en udvidelse af din løsning til den foregående opgave,
     så den kan finde den største af tre variable,
      kald den tredie variabel third.*/

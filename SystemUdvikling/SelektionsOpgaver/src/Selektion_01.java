@@ -1,4 +1,4 @@
-public class Opgave1 {
+public class Selektion_01 {
     public static void main(String[] args) {
         int x = 5;
         int y = 8;

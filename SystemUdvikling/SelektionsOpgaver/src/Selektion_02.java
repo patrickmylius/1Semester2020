@@ -1,4 +1,4 @@
-public class Opgave2 {
+public class Selektion_02 {
     public static void main(String[] args) {
         //TESTCASE
         //Input x = 41, y = 67

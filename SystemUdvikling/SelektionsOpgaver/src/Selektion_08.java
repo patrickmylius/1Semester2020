@@ -1,4 +1,4 @@
-public class Opgave8 {
+public class Selektion_08 {
     /*Lav et program der:
  	Erklærer en variabel øjne og tildeler den en værdi fra intervallet [1:6] som du selv vælger.
     Udskriver antallet af øjne tekstuelt på formen (idet vi f.eks. antager at øjne er 2):

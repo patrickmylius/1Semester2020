@@ -1,4 +1,4 @@
-public class Opgave6 {
+public class Selektion_06 {
     /*Lav et program der:
     Erklærer tre variable x, y og z.
     Sætter x, y og z til værdier du selv vælger.
