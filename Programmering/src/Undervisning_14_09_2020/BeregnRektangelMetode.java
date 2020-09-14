@@ -7,11 +7,12 @@ public class BeregnRektangelMetode {
         //Souts resultat af metodebrug, med længde 6 og bredde 12
         System.out.println(beregnRektangel(6, 12));
     }
+
     //metode som tager i mod int længde og int bredde
-    public static int beregnRektangel(int length, int bredde){
+    public static int beregnRektangel(int length, int bredde) {
         //computes area
-    int area = length * bredde;
+        int area = length * bredde;
         //metoden returnere det udregnede area
-    return area;
+        return area;
     }
 }
