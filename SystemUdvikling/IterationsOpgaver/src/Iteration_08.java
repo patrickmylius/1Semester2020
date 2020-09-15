@@ -18,7 +18,6 @@ public class Iteration_08 {
                 antal++;//adds 1 to variable antal
                 //souts all even numbers found
                 System.out.println(i + " ");
-                ;
             }
         }
         //computes average number between min and max
