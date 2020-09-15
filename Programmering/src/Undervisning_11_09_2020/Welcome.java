@@ -18,14 +18,13 @@ public class Welcome {
         farvel("Daniella");
         farvel("Danijel");
         farvel("Bobski mobski, badowski");
-
         //3 Nedeståënde er metoder. hej() tager ingen parametre, farvel() og hejMedNavne() ønsker et navn som parametre.
     }
     public static void hej(){
         System.out.println("Hej allesammen");
     }
     public static void farvel(String navn){
-        System.out.println("Farvel igen");
+        System.out.println("Farvel igen " + " " + navn);
     }
     public static void hejMednavne(String navn){
         System.out.println("Hej" + " " + navn);
