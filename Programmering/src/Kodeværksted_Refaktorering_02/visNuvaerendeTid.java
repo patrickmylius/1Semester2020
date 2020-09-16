@@ -7,6 +7,11 @@ package Kodeværksted_Refaktorering_02;
 
 public class visNuvaerendeTid {
     public static void main(String[] args) {
+    ur();//metode kald fra main
+
+    }
+    //metode som viser hvad klokken er
+    static void ur() {
         // Finder den totale mængde milisekunder siden, Jan 1, 1970
         long totalMilisekunder = System.currentTimeMillis();
 
@@ -29,7 +34,7 @@ public class visNuvaerendeTid {
         long timeNu = (totalTimer % 24) + 2; //my system hour is 2 hours behind, + 2 explanation.
 
         // Souter resultat
-        System.out.println("Klokken er nu " + timeNu+ ":"
+        System.out.println("Klokken er nu " + timeNu + ":"
                 + minutNu + ":" + sekundNu + " GMT");
     }
 }
