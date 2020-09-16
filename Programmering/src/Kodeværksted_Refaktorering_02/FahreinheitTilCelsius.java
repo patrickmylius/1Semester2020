@@ -8,6 +8,10 @@ import java.util.Scanner;
 
 public class FahreinheitTilCelsius {
     public static void main(String[] args) {
+    konverterFahreinheitTilCelsius();//metode kald
+    }
+    //metode som beregner celsius ud fra inputtet fahreinheit
+    static void konverterFahreinheitTilCelsius() {
         Scanner input = new Scanner(System.in);
 
         System.out.print("Tilføj en temperatur i fahreinheit: ");
@@ -17,5 +21,6 @@ public class FahreinheitTilCelsius {
         double celsius = (5.0 / 9) * (fahrenheit - 32);
         System.out.println("Fahrenheit " + fahrenheit + " er " +
                 celsius + " i Celsius");
+
     }
 }
