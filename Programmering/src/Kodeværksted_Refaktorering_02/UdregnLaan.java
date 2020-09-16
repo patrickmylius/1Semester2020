@@ -8,6 +8,11 @@ import java.util.Scanner;
 
 public class UdregnLaan {
     public static void main(String[] args) {
+    renteBeregner();//Metode kald fra main
+
+    }
+    //metode som beregner det månedlige og totale beløb af et lånt beløb
+    static void renteBeregner() {
         // Instantiere en Scanner
         Scanner input = new Scanner(System.in);
 
