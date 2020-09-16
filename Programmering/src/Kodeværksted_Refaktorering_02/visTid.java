@@ -8,6 +8,11 @@ import java.util.Scanner;
 
 public class visTid {
     public static void main(String[] args) {
+    sekundTilMinut();//metode, kaldt fra main
+
+    }
+    //metode som beregner den indtaste mængde sekunder om til minutter
+    static void sekundTilMinut() {
         Scanner input = new Scanner(System.in);
         // souter bruger efter et input
         System.out.print("Indtast et tal for sekunder: ");
