@@ -6,16 +6,16 @@ package Kodeværksted_Refaktorering_02;
 
 import java.util.Scanner;
 
-public class FahreinheitToCelsius {
+public class FahreinheitTilCelsius {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        System.out.print("Enter a degree in Fahrenheit: ");
+        System.out.print("Tilføj en temperatur i fahreinheit: ");
         double fahrenheit = input.nextDouble();
 
-        // Convert Fahrenheit to Celsius
+        // Konvertere fahreinheit til celcius
         double celsius = (5.0 / 9) * (fahrenheit - 32);
-        System.out.println("Fahrenheit " + fahrenheit + " is " +
-                celsius + " in Celsius");
+        System.out.println("Fahrenheit " + fahrenheit + " er " +
+                celsius + " i Celsius");
     }
 }
