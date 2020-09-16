@@ -9,12 +9,16 @@ import java.util.Scanner;
 
 public class Opg_Moms {
     public static void main(String[] args) {
+        System.out.print("Indtast beløb: ");
+        plusMoms();
+
+    }
+    static void plusMoms(){
         Scanner input = new Scanner(System.in);
 
-        System.out.print("Indtast beløb: ");
         double beløb = input.nextDouble();
-
         double moms = beløb * 0.25;
         System.out.println("Moms udgør kr: " + (int) (moms * 100) / 100.0);
     }
+
 }
