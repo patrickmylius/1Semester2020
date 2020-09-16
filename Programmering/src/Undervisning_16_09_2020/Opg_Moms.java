@@ -15,7 +15,7 @@ public class Opg_Moms {
         String svar = input.nextLine();
         //if loop som kører plusMoms metoden hvis input er lig dansk
         if (svar.equalsIgnoreCase("dansk")) {
-            plusMoms();
+            plusDanskMoms();
         }
         //if loop som kører plusTyskMoms metoden hvis input er lig tysk
         if (svar.equalsIgnoreCase("tysk")) {
@@ -24,7 +24,7 @@ public class Opg_Moms {
     }
 
     //Metode plusMoms, bruger beløb til at beregne moms
-    static void plusMoms() {
+    static void plusDanskMoms() {
         Scanner input = new Scanner(System.in);
 
         System.out.print("Indtast beløb: ");
