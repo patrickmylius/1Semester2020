@@ -2,7 +2,7 @@ public class Metoder_03 {
 
     public static void main(String[] args) {
         //method call
-        skrivAdresse("patrick");
+        skrivAdresse("batman");
     }
     //method
     static void skrivAdresse(String navn) {
