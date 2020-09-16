@@ -8,6 +8,11 @@ import java.util.Scanner;
 
 public class UdregnByttePenge {
     public static void main(String[] args) {
+        beloebsUdregner();//metode kald
+
+    }
+    //metode som beregner
+    static void beloebsUdregner() {
         // Instantiere en Scanner
         Scanner input = new Scanner(System.in);
 
@@ -44,6 +49,7 @@ public class UdregnByttePenge {
         System.out.println("    " + antalDimes + " dimes");
         System.out.println("    " + antalNickles + " nickels");
         System.out.println("    " + antalPennies + " pennies");
+
     }
 
 }
