@@ -5,6 +5,7 @@
 
 public class Metoder_10 {
     public static void main(String[] args) {
+        //instantiering af de 2 int arrays numre
         int først[] = {5, 42, 9, 53, 3, 10};
         int andet[] = {3, 9, 19, 33, 10, 1};
         //Max metode kald
