@@ -17,7 +17,7 @@ public class Metoder_09 {
 
     }
 
-    //metode add som tager i mod array af typen int[] og beregner sum af første + andet
+    //metode add som tager i mod array af typen int[] og beregner sum af første + andet uberørt
     static void add(int numre1[], int numre2[]) {
         for (int i = 0; i < numre1.length; i++) {
             numre1[i] += numre2[i];
