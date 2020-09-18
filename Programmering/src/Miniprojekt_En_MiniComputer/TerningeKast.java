@@ -1,7 +1,7 @@
 package Miniprojekt_En_MiniComputer;
 
 import java.util.ArrayList;
-
+//Patrick
 public class TerningeKast {
     static final int ANTAL_KAST = 5;
 

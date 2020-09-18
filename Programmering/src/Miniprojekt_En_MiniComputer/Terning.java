@@ -1,7 +1,7 @@
 package Miniprojekt_En_MiniComputer;
 
 import java.util.ArrayList;
-
+//Patrick
 public class Terning {
     int alleKast[] = {2, 2, 2, 6, 1, 3, 4};
     static ArrayList alleKastArrayList = new ArrayList();

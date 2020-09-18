@@ -26,6 +26,9 @@ public class MiniComputer {
             if (x == 2) {
             TerningeKast.terningeKast();
             }
+            if (x == 3) {
+                EuroToDK.konverter();
+            }
 
         }
         System.out.println("Farvel!");
