@@ -44,6 +44,9 @@ public class MiniComputer {
             if (x == 8) {
                 BMI.beregnBMI();
             }
+            if (x == 9) {
+                SomeAsciiArt.printLortet();
+            }
 
         }
         System.out.println("Farvel!");

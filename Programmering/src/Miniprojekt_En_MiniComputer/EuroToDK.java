@@ -35,10 +35,6 @@ public class EuroToDK {
                 System.out.println("\n" + kroner + " kroner: " +
                         "konveteret til danske kroner: " + resultatEU + " €" + "\n");
             }
-            if (svar != DK && svar != EU) {
-                System.out.println("\n" + "Dit input er ugyldigt, prøv igen");
-
-            }
             if (svar == "exit" || svar == "stop" || svar == "quit") {
                 break;
             }
