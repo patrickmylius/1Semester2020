@@ -32,6 +32,9 @@ public class MiniComputer {
             if (x == 4) {
                 ForLoop.Run();
             }
+            if (x == 5) {
+                LotteryGame.spil();
+            }
 
         }
         System.out.println("Farvel!");

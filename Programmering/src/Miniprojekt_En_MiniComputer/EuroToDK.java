@@ -1,6 +1,7 @@
 package Miniprojekt_En_MiniComputer;
 
 import java.util.Scanner;
+
 //Patrick
 public class EuroToDK {
     //instans af final variabler
@@ -18,7 +19,7 @@ public class EuroToDK {
             //if loop, køres til konvertering af Euro til DK
             if (svar.equalsIgnoreCase(EU)) {
 
-                System.out.print("Indtast euro til konvertering: ");
+                System.out.print("\n" + "Indtast euro til konvertering: ");
                 double euro = input.nextDouble();
                 double resultatDK = euro * VALUTA;
                 //souter resultat
@@ -33,6 +34,13 @@ public class EuroToDK {
                 //souter resultat
                 System.out.println("\n" + kroner + " kroner: " +
                         "konveteret til danske kroner: " + resultatEU + " €" + "\n");
+            }
+            if (svar != DK && svar != EU) {
+                System.out.println("\n" + "Dit input er ugyldigt, prøv igen");
+
+            }
+            if (svar == "exit" || svar == "stop" || svar == "quit") {
+                break;
             }
         }
     }
