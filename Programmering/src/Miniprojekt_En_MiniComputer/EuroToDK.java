@@ -1,7 +1,7 @@
 package Miniprojekt_En_MiniComputer;
 
 import java.util.Scanner;
-
+//Patrick
 public class EuroToDK {
     //instans af final variabler
     static final double VALUTA = 7.4399;
