@@ -22,6 +22,10 @@ public class MiniComputer {
             if (x == 1) {
                 RandomJoke.grin();
             }
+            //if loop, hvis input = 2, brug terninge kast spillet
+            if (x == 2) {
+            TerningeKast.terningeKast();
+            }
 
         }
         System.out.println("Farvel!");
