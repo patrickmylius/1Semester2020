@@ -35,6 +35,9 @@ public class MiniComputer {
             if (x == 5) {
                 LotteryGame.spil();
             }
+            if (x == 6) {
+                Sten_saks_papir.StenSaksPapir();
+            }
 
         }
         System.out.println("Farvel!");
