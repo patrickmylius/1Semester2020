@@ -41,6 +41,9 @@ public class MiniComputer {
             if (x == 7) {
                 Bil.funktion();
             }
+            if (x == 8) {
+                BMI.beregnBMI();
+            }
 
         }
         System.out.println("Farvel!");
