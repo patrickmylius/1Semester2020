@@ -29,6 +29,9 @@ public class MiniComputer {
             if (x == 3) {
                 EuroToDK.konverter();
             }
+            if (x == 4) {
+                ForLoop.Run();
+            }
 
         }
         System.out.println("Farvel!");
