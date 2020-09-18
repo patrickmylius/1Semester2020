@@ -38,6 +38,9 @@ public class MiniComputer {
             if (x == 6) {
                 Sten_saks_papir.StenSaksPapir();
             }
+            if (x == 7) {
+                Bil.funktion();
+            }
 
         }
         System.out.println("Farvel!");
