@@ -23,7 +23,7 @@ public class Selektion_07 {
         //forventet output: 10
         x = 20;
         y = 10;
-        if (x - y >= 10 || y - x <= -10)
+        if (x - y >= 10 || x - y <= -10)
             System.out.println(x - y);
         else
             System.out.println("Der er mindre end 10 i mellem x og y");

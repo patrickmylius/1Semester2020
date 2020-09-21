@@ -1,4 +1,4 @@
-package LayersSelektions_03;
+package LayerSelektions_03;
 
 public class Main {
     //start
