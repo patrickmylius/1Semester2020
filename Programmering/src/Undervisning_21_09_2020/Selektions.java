@@ -36,7 +36,7 @@ public class Selektions {
         else if (color.equalsIgnoreCase("green")) {
             System.out.println("En grøn off-roader");
         } else
-            System.out.println("En random bil ");
+            System.out.println("En random bil");
 
     }
 
