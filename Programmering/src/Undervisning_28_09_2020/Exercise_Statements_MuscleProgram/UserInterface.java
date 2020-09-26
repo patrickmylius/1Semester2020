@@ -1,4 +1,4 @@
-package Undervisning_28_09_2020.Exercise;
+package Undervisning_28_09_2020.Exercise_Statements_MuscleProgram;
 
 import java.util.Scanner;
 

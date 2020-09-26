@@ -1,4 +1,4 @@
-package Undervisning_28_09_2020.Exercise;
+package Undervisning_28_09_2020.Exercise_Statements_MuscleProgram;
 //ASSIGNMENT: Build a program in IntelliJ
 //That has to illustrate your use of if, else and switch
 
