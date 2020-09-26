@@ -3,8 +3,8 @@ package Undervisning_28_09_2020.Exercise;
 //Classfunction holding switch statement, with string input
 public class Function {
     //method that takes String muscle
-
     static String switchMuscle(String muscle) {
+
         //switch matching muscle with string cases
         //returns muscle after match
         switch (muscle.toLowerCase()) {
@@ -31,7 +31,6 @@ public class Function {
         }
         return muscle;
     }
-
     //Method holding souts with ascii art
     static void motivation() {
         System.out.println("Some extra motivation!");
@@ -72,7 +71,6 @@ public class Function {
                 "           \\__/");
 
     }
-
     //Method holding sout with askii art
     static void tryAgain() {
         System.out.println("     ////^\\\\\\\\\n" +
