@@ -5,4 +5,5 @@ public class GroupMember {
     int age;
     String favoritFood;
     String favoritTopic;
+
 }

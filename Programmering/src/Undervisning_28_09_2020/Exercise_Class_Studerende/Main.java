@@ -2,6 +2,7 @@ package Undervisning_28_09_2020.Exercise_Class_Studerende;
 
 public class Main {
     public static void main(String[] args) {
+        UserInterface.promptUser();
 
         GroupMember memb1 = new GroupMember();
         memb1.name = "Patrick";
@@ -20,7 +21,6 @@ public class Main {
         memb3.age = 25;
         memb3.favoritTopic = "Jehova";
         memb3.favoritFood = "Pizza";
-
 
     }
 }
