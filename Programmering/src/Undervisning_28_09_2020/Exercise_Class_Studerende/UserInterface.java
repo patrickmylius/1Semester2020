@@ -1,12 +1,16 @@
 package Undervisning_28_09_2020.Exercise_Class_Studerende;
+
+import Undervisning_28_09_2020.Exercise_Statements_MuscleProgram.Function;
+
 import java.util.Scanner;
 
 public class UserInterface {
-    static void promptUser(){
-      Scanner input = new Scanner(System.in);
+    static String promptUser() {
+        System.out.print("Insert group member of copy paste name: ");
 
-        System.out.print("Input name of a Copy paste group member: ");
-        String member = input.next();
+        Scanner input = new Scanner(System.in);
+        String membName = input.next();
 
+        return membName;
     }
 }
