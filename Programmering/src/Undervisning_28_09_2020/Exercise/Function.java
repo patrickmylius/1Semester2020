@@ -34,7 +34,7 @@ public class Function {
     //Method holding souts with ascii art
     static void motivation() {
         System.out.println("Some extra motivation!");
-        System.out.println("");
+        System.out.println(" ");
         System.out.println("      ,#####,\n" +
                 "                 #_   _#\n" +
                 "                 |a` `a|\n" +
