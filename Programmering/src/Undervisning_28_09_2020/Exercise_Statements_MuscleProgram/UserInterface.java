@@ -24,8 +24,10 @@ public class UserInterface {
                 || muscle.equalsIgnoreCase("legs")
                 || muscle.equalsIgnoreCase("shoulders")
                 || muscle.equalsIgnoreCase("abs")) {
-            //souts exercise
-            System.out.println(exercise);
+            //souts exercise + strings
+            String out = " exercises";
+            String textSpace = "\n \n";
+            System.out.println(exercise + out + textSpace);
             //calls function class running motivation method
             Function.motivation();
         } else {

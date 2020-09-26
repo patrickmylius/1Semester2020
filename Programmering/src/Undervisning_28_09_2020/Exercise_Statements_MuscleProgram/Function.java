@@ -31,6 +31,7 @@ public class Function {
         }
         return muscle;
     }
+
     //Method holding souts with ascii art
     static void motivation() {
         System.out.println("Some extra motivation!");
@@ -53,24 +54,10 @@ public class Function {
                 "  \\ : |       |_____._____|       | : /\n" +
                 "  /   (       |----|------|       )   \\\n" +
                 " /... .|      |    |      |      |. ...\\\n" +
-                "|::::/'' jgs /     |       \\     ''\\::::|\n" +
-                "'\"\"\"\"       /'    .L_      `\\       \"\"\"\"'\n" +
-                "           /'-.,__/` `\\__..-'\\\n" +
-                "          ;      /     \\      ;\n" +
-                "          :     /       \\     |\n" +
-                "          |    /         \\.   |\n" +
-                "          |`../           |  ,/\n" +
-                "          ( _ )           |  _)\n" +
-                "          |   |           |   |\n" +
-                "          |___|           \\___|\n" +
-                "          :===|            |==|\n" +
-                "           \\  /            |__|\n" +
-                "           /\\/\\           /\"\"\"`8.__\n" +
-                "           |oo|           \\__.//___)\n" +
-                "           |==|\n" +
-                "           \\__/");
+                "|::::/'' jgs /     |       \\     ''\\::::|\n");
 
     }
+
     //Method holding sout with askii art
     static void tryAgain() {
         System.out.println("     ////^\\\\\\\\\n" +
