@@ -6,7 +6,7 @@ public class Main {
     public static void main(String[] args) {
         //cals UserTnterface class and runs promptInput method
         //loops it 3 times for user to get a near complete program
-        for (int i = 0; i < 4; i++) {
+        for (int i = 0; i < 3; i++) {
             UserInterface.promptInput();
         }
     }
