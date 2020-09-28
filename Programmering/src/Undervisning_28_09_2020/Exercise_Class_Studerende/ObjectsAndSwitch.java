@@ -12,36 +12,15 @@ public class ObjectsAndSwitch {
     //findUser method, takes String membName from UserInterface class
     static GroupMember findUser(String membName) {
         //new Object
-        GroupMember patrick = new GroupMember();
-        patrick.name = "Patrick";
-        patrick.age = 26;
-        patrick.studieRetning = "Datamatik";
-        patrick.favoritTopic = "Muscle training";
-        patrick.favoritFood = "Lasagne";
+        GroupMember patrick = new GroupMember("Patrick", 26, "Muscle training", "Lasagne");
         //new Object
-        GroupMember usamah = new GroupMember();
-        usamah.name = "Usamah";
-        usamah.age = 25;
-        usamah.favoritTopic = "Humanbeings behaviour";
-        usamah.favoritFood = "Noobs in league of legends";
+        GroupMember usamah = new GroupMember("Usamah", 24, "Humanbeings behaviour", "Noobs in league of legends");
         //new Object
-        GroupMember daniella = new GroupMember();
-        daniella.name = "Daniella";
-        daniella.age = 23;
-        daniella.favoritTopic = "Jehova";
-        daniella.favoritFood = "Pizza";
+        GroupMember daniella = new GroupMember("Daniella", 23, "Jehova", "Pizza");
         //new Object
-        GroupMember mikkel = new GroupMember();
-        mikkel.name = "Mikkel";
-        mikkel.age = 22;
-        mikkel.favoritTopic = "Gaming";
-        mikkel.favoritFood = "Italian dishes";
+        GroupMember mikkel = new GroupMember("Mikkel", 22, "Gaming", "Italian dishes");
         //new Object
-        GroupMember danijel = new GroupMember();
-        danijel.name = "Danijel";
-        danijel.age = 22;
-        danijel.favoritTopic = "Coding";
-        danijel.favoritFood = "Burger";
+        GroupMember danijel = new GroupMember("Danijel", 22, "Coding", "Burger");
 
         GroupMember memberFound;
         //Switch, running membName through statements.
@@ -68,7 +47,7 @@ public class ObjectsAndSwitch {
                 break;
 
             default:
-                return new GroupMember();
+                return new GroupMember("0", 0, "0", "0");
 
         }
         return memberFound;

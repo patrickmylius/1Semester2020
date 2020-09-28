@@ -8,7 +8,7 @@ public class GroupMember extends StudentInfo {
     }
 
     //constructor
-    GroupMember() {
+    GroupMember(String navn, int age, String Topic, String FavoritFood) {
         studieRetning = "I study Computer science";
     }
 }
