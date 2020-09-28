@@ -5,56 +5,66 @@ public class Main {
         for (int i = 0; i < 3; i++) {
             String memberInput = UserInterface.promptUser();
 
-            Patrick memb1 = new Patrick();
-            memb1.name = "Patrick";
-            memb1.age = 26;
-            memb1.favoritTopic = "Muscle training";
-            memb1.favoritFood = "Lasagne";
+            GroupMember patrick = new GroupMember();
+            patrick.name = "Patrick";
+            patrick.age = 26;
+            patrick.studieRetning = "Datamatik";
+            patrick.favoritTopic = "Muscle training";
+            patrick.favoritFood = "Lasagne";
 
-            Usamah memb2 = new Usamah();
-            memb2.name = "Usamah";
-            memb2.age = 25;
-            memb2.favoritTopic = "Humanbeings behaviour";
-            memb2.favoritFood = "Noobs in league of legends";
+            GroupMember usamah = new GroupMember();
+            usamah.name = "Usamah";
+            usamah.age = 25;
+            usamah.studieRetning = "Datamatik";
+            usamah.favoritTopic = "Humanbeings behaviour";
+            usamah.favoritFood = "Noobs in league of legends";
 
-            Daniella memb3 = new Daniella();
-            memb3.name = "Daniella";
-            memb3.age = 23;
-            memb3.favoritTopic = "Jehova";
-            memb3.favoritFood = "Pizza";
+            GroupMember daniella = new GroupMember();
+            daniella.name = "Daniella";
+            daniella.age = 23;
+            daniella.studieRetning = "Datamatik";
+            daniella.favoritTopic = "Jehova";
+            daniella.favoritFood = "Pizza";
 
-            Mikkel memb4 = new Mikkel();
-            memb4.name = "Mikkel";
-            memb4.age = 22;
-            memb4.favoritTopic = "Gaming";
-            memb4.favoritFood = "Italian dishes";
+            GroupMember mikkel = new GroupMember();
+            mikkel.name = "Mikkel";
+            mikkel.age = 22;
+            mikkel.studieRetning = "Datamatik";
+            mikkel.favoritTopic = "Gaming";
+            mikkel.favoritFood = "Italian dishes";
 
-            Danijel memb5 = new Danijel();
-            memb5.name = "Danijel";
-            memb5.age = 22;
-            memb5.favoritTopic = "Coding";
-            memb5.favoritFood = "Burger";
+            GroupMember danijel = new GroupMember();
+            danijel.name = "Danijel";
+            danijel.age = 22;
+            danijel.studieRetning = "Datamatik";
+            danijel.favoritTopic = "Coding";
+            danijel.favoritFood = "Burger";
 
             switch (memberInput.toLowerCase()) {
                 case "patrick":
-                    memb1.introduce();
-                    System.out.println("I am " + memb1.age + " years old");
+                    patrick.introduce();
+                    System.out.println("My name is " + patrick.name);
+                    System.out.println("I am " + patrick.age + " years old");
                     break;
                 case "usamah":
-                    memb2.introduce();
-                    System.out.println("I am " + memb2.age + " years old");
+                    usamah.introduce();
+                    System.out.println("My name is " + usamah.name);
+                    System.out.println("I am " + usamah.age + " years old");
                     break;
                 case "daniella":
-                    memb3.introduce();
-                    System.out.println("I am " + memb3.age + " years old");
+                    daniella.introduce();
+                    System.out.println("My name is " + daniella.name);
+                    System.out.println("I am " + daniella.age + " years old");
                     break;
                 case "mikkel":
-                    memb4.introduce();
-                    System.out.println("I am " + memb4.age + " years old");
+                    mikkel.introduce();
+                    System.out.println("My name is " + mikkel.name);
+                    System.out.println("I am " + mikkel.age + " years old");
                     break;
                 case "danijel":
-                    memb5.introduce();
-                    System.out.println("I am " + memb5.age + " years old");
+                    danijel.introduce();
+                    System.out.println("My name is " + danijel.name);
+                    System.out.println("I am " + danijel.age + " years old");
                     break;
                 default:
                     System.out.println("Sorry, no group member of Copy paste, matching your input");
