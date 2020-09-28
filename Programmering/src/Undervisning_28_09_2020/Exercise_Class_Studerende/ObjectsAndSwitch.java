@@ -6,10 +6,11 @@
  * 28-09-2020
  */
 package Undervisning_28_09_2020.Exercise_Class_Studerende;
+
 //
 public class ObjectsAndSwitch {
     //findUser method, takes String membName from UserInterface class
-    static void findUser(String membName){
+    static GroupMember findUser(String membName) {
         //new Object
         GroupMember patrick = new GroupMember();
         patrick.name = "Patrick";
@@ -42,41 +43,34 @@ public class ObjectsAndSwitch {
         danijel.favoritTopic = "Coding";
         danijel.favoritFood = "Burger";
 
+        GroupMember memberFound;
         //Switch, running membName through statements.
         switch (membName.toLowerCase()) {
             case "patrick":
                 patrick.introduce();
-                System.out.println("My name is " + patrick.name);
-                System.out.println("I am " + patrick.age + " years old");
-                System.out.println(patrick.studieRetning);
+                memberFound = patrick;
                 break;
             case "usamah":
                 usamah.introduce();
-                System.out.println("My name is " + usamah.name);
-                System.out.println("I am " + usamah.age + " years old");
-                System.out.println(usamah.studieRetning);
+                memberFound = usamah;
                 break;
             case "daniella":
                 daniella.introduce();
-                System.out.println("My name is " + daniella.name);
-                System.out.println("I am " + daniella.age + " years old");
-                System.out.println(daniella.studieRetning);
+                memberFound = daniella;
                 break;
             case "mikkel":
                 mikkel.introduce();
-                System.out.println("My name is " + mikkel.name);
-                System.out.println("I am " + mikkel.age + " years old");
-                System.out.println(mikkel.studieRetning);
+                memberFound = mikkel;
                 break;
             case "danijel":
                 danijel.introduce();
-                System.out.println("My name is " + danijel.name);
-                System.out.println("I am " + danijel.age + " years old");
-                System.out.println(danijel.studieRetning);
+                memberFound = danijel;
                 break;
+
             default:
-                System.out.println("Sorry, no group member of Copy paste, matching your input");
+                return new GroupMember();
 
         }
+        return memberFound;
     }
 }
