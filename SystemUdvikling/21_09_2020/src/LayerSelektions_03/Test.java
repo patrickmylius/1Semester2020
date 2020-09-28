@@ -15,20 +15,20 @@ public class Test {
         //Input: first = 5, second = 3
         //forventet output = first variable is higher than the second variable
         String result = Function.sammenLign(5, 3);
-        testMethod(result,out1);
-        //faktisk output: out1
+        compareStrings(result,out1);
+        //faktisk output: "first variable is higher than the second variable"
 
 
         //Testcase:
         //Input: first = 7, second = 3
         //forventet output = second variable is higher than the first variable
         String result2 = Function.sammenLign(7, 8);
-        testMethod(result2, out2);
-        //faktisk output:
+        compareStrings(result2, out2);
+        //faktisk output: "second variable is higher than the first variable";
 
     }
-    static void testMethod(String result, String result2) {
-        if (result.equals(result2)) {
+    static void compareStrings(String result, String expectedResult) {
+        if (result.equals(expectedResult)) {
             System.out.println("PASS");
         } else System.out.println("FAIL");
     }
