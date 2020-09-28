@@ -9,6 +9,6 @@ public class UserInterface {
         Scanner input = new Scanner(System.in);
         String membName = input.next();
 
-        SwitchFunction.findUser(membName);
+        ObjectsAndSwitch.findUser(membName);
     }
 }

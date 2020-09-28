@@ -7,41 +7,42 @@
  */
 package Undervisning_28_09_2020.Exercise_Class_Studerende;
 //
-public class SwitchFunction {
-
+public class ObjectsAndSwitch {
+    //findUser method, takes String membName from UserInterface class
     static void findUser(String membName){
-
+        //new Object
         GroupMember patrick = new GroupMember();
         patrick.name = "Patrick";
         patrick.age = 26;
         patrick.studieRetning = "Datamatik";
         patrick.favoritTopic = "Muscle training";
         patrick.favoritFood = "Lasagne";
-
+        //new Object
         GroupMember usamah = new GroupMember();
         usamah.name = "Usamah";
         usamah.age = 25;
         usamah.favoritTopic = "Humanbeings behaviour";
         usamah.favoritFood = "Noobs in league of legends";
-
+        //new Object
         GroupMember daniella = new GroupMember();
         daniella.name = "Daniella";
         daniella.age = 23;
         daniella.favoritTopic = "Jehova";
         daniella.favoritFood = "Pizza";
-
+        //new Object
         GroupMember mikkel = new GroupMember();
         mikkel.name = "Mikkel";
         mikkel.age = 22;
         mikkel.favoritTopic = "Gaming";
         mikkel.favoritFood = "Italian dishes";
-
+        //new Object
         GroupMember danijel = new GroupMember();
         danijel.name = "Danijel";
         danijel.age = 22;
         danijel.favoritTopic = "Coding";
         danijel.favoritFood = "Burger";
 
+        //Switch, running membName through statements.
         switch (membName.toLowerCase()) {
             case "patrick":
                 patrick.introduce();
