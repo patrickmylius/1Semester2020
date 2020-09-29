@@ -18,7 +18,7 @@ public class Remotes extends RemoteVars {
         System.out.println("Tracking light turned on");
     }
     //Sets declared variables in RemoteVars class, to this const.
-    Remotes(String name, String distance, int power, String track) {
+    Remotes(String name, String distance, int power) {
         this.name = name;
         this.distance = distance;
         this.battery = power;
