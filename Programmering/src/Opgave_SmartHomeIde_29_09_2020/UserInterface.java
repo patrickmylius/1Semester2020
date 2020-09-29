@@ -23,6 +23,6 @@ public class UserInterface {
         //sout results
         System.out.println("Owner of remote: " + owner.name);
         System.out.println("Distance to your remote: " + owner.distance);
-        System.out.println("Battery left: " + owner.power + "%");
+        System.out.println("Battery left: " + owner.battery + "%");
     }
 }

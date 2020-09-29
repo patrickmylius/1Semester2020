@@ -22,31 +22,31 @@ public class FunctionFindOwner {
         //Returns "remoteOwner" now holds an owner.
         switch (remoteOwner.toLowerCase()) {
             case "patrick":
-                if (owner1.power >= 50) {
+                if (owner1.battery >= 50) {
                     owner1.trackRemote();
                 } else owner1.blink();
                 ownerFound = owner1;
                 break;
             case "usamah":
-                if (owner2.power >= 50) {
+                if (owner2.battery >= 50) {
                     owner2.trackRemote();
                 } else owner2.blink();
                 ownerFound = owner2;
                 break;
             case "daniella":
-                if (owner3.power >= 50) {
+                if (owner3.battery >= 50) {
                     owner3.trackRemote();
                 } else owner3.blink();
                 ownerFound = owner3;
                 break;
             case "danijel":
-                if (owner4.power >= 50) {
+                if (owner4.battery >= 50) {
                     owner4.trackRemote();
                 } else owner4.blink();
                 ownerFound = owner4;
                 break;
             case "mikkel":
-                if (owner5.power >= 50) {
+                if (owner5.battery >= 50) {
                     owner5.trackRemote();
                 } else owner5.blink();
                 ownerFound = owner5;

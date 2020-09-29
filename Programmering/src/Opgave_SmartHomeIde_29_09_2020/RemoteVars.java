@@ -11,5 +11,5 @@ package Opgave_SmartHomeIde_29_09_2020;
 public class RemoteVars {
     String name;
     String distance;
-    int power;
+    int battery;
 }

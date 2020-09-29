@@ -21,6 +21,6 @@ public class Remotes extends RemoteVars {
     Remotes(String name, String distance, int power) {
         this.name = name;
         this.distance = distance;
-        this.power = power;
+        this.battery = power;
     }
 }
