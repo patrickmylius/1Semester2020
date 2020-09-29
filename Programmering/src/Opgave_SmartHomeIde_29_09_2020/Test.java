@@ -63,7 +63,8 @@ public class Test {
 
     }
 
-    //Method, that holds the methods below, to get a cleaner syntax.
+    //Method, that holds the compareStrings and compareInts methods below,
+    //to achieve a cleaner syntax.
     static void testResult(Remotes result, Remotes expectedResult) {
         compareStrings(result.name, expectedResult.name);
         compareStrings(result.distance, expectedResult.distance);
