@@ -35,5 +35,4 @@ public class UserInterface {
             Function.tryAgain();
         }
     }
-
 }
