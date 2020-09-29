@@ -19,7 +19,7 @@ public class FunctionFindOwner {
         //Sets new Object to "ownerFound"
         Remotes ownerFound;
         //Runs empty "remoteOwner" through switch selektions
-        //Returns "remoteOwner" now holds an owner.
+        //Returns "remoteOwner" now holds an owner..
         switch (remoteOwner.toLowerCase()) {
             case "patrick":
                 flashOrBlink(owner1);
