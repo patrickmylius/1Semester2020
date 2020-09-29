@@ -17,6 +17,7 @@ public class Test {
         String outLegs = "legs";
         String outShoulders = "shoulders";
         String outAbs = "abs";
+        String outError = "volapyk";
 
 
         //Testcase:
@@ -75,8 +76,15 @@ public class Test {
         //Actual output: "abs"
         //Test result: PASS
 
-        //TODO : TEST If return statement, with motivation() and Function.
+        //Testcase:
+        //Input "volapyk"
+        //Espected output: "volapyk"
+        String resultNull = Function.switchMuscle("volapyk");
+        compareStrings(resultNull, outError);
+        //Actual output: "volapyk"
+        //Test result: PASS
 
+        //TODO : TEST If return statement, with motivation() and Function.
     }
     //Test return method, comparing actual return, with our expectedResult
     static void compareStrings(String result, String expectedResult){

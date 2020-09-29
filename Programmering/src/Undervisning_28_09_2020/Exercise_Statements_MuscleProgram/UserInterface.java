@@ -13,6 +13,7 @@ public class UserInterface {
         String muscle = input.next();
         //Calls Function class and runs switchMuscle method then sets result of switch case to = exercise
         String exercise = Function.switchMuscle(muscle);
+        System.out.println(muscle);
 
         //if statement, with string equals muscle input condition
         //true runs motivation method
