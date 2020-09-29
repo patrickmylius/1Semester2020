@@ -12,7 +12,7 @@ public class Test {
         String out1 = "first variable is higher than the second variable";
         String out2 = "second variable is higher than the first variable";
 
-        //Testcase
+        //Testcase: 1
         //Input: first = 5, second = 3
         //forventet output = first variable is higher than the second variable
         String result = Function.sammenLign(5, 3);
@@ -21,7 +21,7 @@ public class Test {
         //Test result: PASS
 
 
-        //Testcase:
+        //Testcase: 2
         //Input: first = 7, second = 3
         //forventet output = second variable is higher than the first variable
         String result2 = Function.sammenLign(7, 8);

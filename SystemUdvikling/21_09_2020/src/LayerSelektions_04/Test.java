@@ -15,7 +15,7 @@ public class Test {
         String out3 = "third variable has the highest value";
 
 
-        //Testcase: First value = highest value
+        //Testcase: 1
         //Input: first = 12, second = 10, third = 5
         //Expected output: "first variable has the highest value"
         String result = Function.valueCheck(12, 10, 5);
@@ -24,7 +24,7 @@ public class Test {
         //Test result: PASS
 
 
-        //Testcase: Second value = highest value
+        //Testcase: 2
         //Input: first = 5, second = 12, third = 10
         //Expected output: "second variable has the highest value"
         String result2 = Function.valueCheck(5, 12, 10);
@@ -32,7 +32,7 @@ public class Test {
         //Actual output: "second variable has the highest value"
         //Test result: PASS
 
-        //Testcase: Third value = highest value
+        //Testcase: 3
         //Input: first 3, second 20, third = 21
         //Expected output: "third variable has the highest value"
         String result3 = Function.valueCheck(3, 20, 21);

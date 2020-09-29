@@ -20,7 +20,7 @@ public class Test {
         Remotes outOwner5 = new Remotes("Mikkel", "5 feet", 41);
 
 
-        //Testcase
+        //Testcase: 1
         //Testinput: "patrick"
         //Forventet output: new Remotes("Patrick", "10 feet", 50)
         Remotes result1 = FunctionFindOwner.findOwner("patrick");
@@ -28,7 +28,7 @@ public class Test {
         //Faktisk output: new Remotes("Patrick", "10 feet", 50)
         //Testresultat: PASS
 
-        //Testcase:
+        //Testcase: 2
         //Testinput: "usamah"
         //Forventet output: new Remotes("Usamah", "30 feet", 25)
         Remotes result2 = FunctionFindOwner.findOwner("usamah");
@@ -36,7 +36,7 @@ public class Test {
         //Faktisk output: new Remotes("Usamah", "30 feet", 25)
         //Testresultat: PASS
 
-        //Testcase:
+        //Testcase: 3
         //Testinput: "daniella"
         //Forventet output: new Remotes("Daniella", "40 feet", 69)
         Remotes result3 = FunctionFindOwner.findOwner("daniella");
@@ -44,7 +44,7 @@ public class Test {
         //Faktisk output: new Remotes("Daniella", "40 feet", 69)
         //Testresultat: PASS
 
-        //Testcase:
+        //Testcase: 4
         //Testinput: "danijel"
         //Forventet output: new Remotes("Danijel", "20 feet", 99)
         Remotes result4 = FunctionFindOwner.findOwner("danijel");
@@ -52,7 +52,7 @@ public class Test {
         //Faktisk output: new Remotes("Danijel", "20 feet", 99)
         //Testresultat: PASS
 
-        //Testcase:
+        //Testcase: 5
         //Testinput: "daniella"
         //Forventet output: new Remotes("Mikkel", "5 feet", 41)
         Remotes result5 = FunctionFindOwner.findOwner("mikkel");

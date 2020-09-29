@@ -13,7 +13,7 @@ public class Test {
         String out1 = "Der er 10 eller mere i mellem x og y";
         String out2 = "Der er ikke 10 i mellem x og y";
 
-        //Testcase:
+        //Testcase: 1
         //Input: x = 3, y = 13;
         //Expected output: "Der er 10 eller mere i mellem x og y"
         String result = Function.compute(3, 13);
@@ -21,7 +21,7 @@ public class Test {
         //Actual output: "Der er 10 eller mere i mellem x og y"
         //Test result: PASS
 
-        //Testcase:
+        //Testcase: 2
         //Input x = 0, y = 9
         //Expected output: "Der er ikke 10 i mellem x og y"
         String result2 = Function.compute(0, 9);

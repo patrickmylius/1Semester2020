@@ -20,7 +20,7 @@ public class Test {
         String outWrongInput = "volapyk";
 
 
-        //Testcase:
+        //Testcase: 1
         //Input: "chest"
         //Expected output: "\nBenchpress, Flyes, Cable press"
         String resultChest = Function.switchMuscle("chest");
@@ -28,7 +28,7 @@ public class Test {
         //Actual output: "chest"
         //Test result: PASS
 
-        //Testcase:
+        //Testcase: 2
         //Input: "biceps"
         //Expected output: "biceps"
         String resultBiceps = Function.switchMuscle("biceps");
@@ -36,7 +36,7 @@ public class Test {
         //Actual output: "biceps"
         //Test result: PASS
 
-        //Testcase:
+        //Testcase: 3
         //Input: "triceps"
         //Expected output: "triceps"
         String resultTriceps = Function.switchMuscle("triceps");
@@ -44,7 +44,7 @@ public class Test {
         //Actual output: "triceps"
         //Test result: PASS
 
-        //Testcase:
+        //Testcase: 4
         //Input: "back"
         //Expected output: "back"
         String resultBack = Function.switchMuscle("back");
@@ -52,7 +52,7 @@ public class Test {
         //Actual output: "back"
         //Test result: PASS
 
-        //Testcase:
+        //Testcase: 5
         //Input: "legs"
         //Expected output: "\nBenchpress, Flyes, Cable press"
         String resultLegs = Function.switchMuscle("legs");
@@ -60,7 +60,7 @@ public class Test {
         //Actual output: "legs"
         //Test result: PASS
 
-        //Testcase:
+        //Testcase: 6
         //Input: "shoulders"
         //Expected output: "shoulders"
         String resultShoulders = Function.switchMuscle("shoulders");
@@ -68,7 +68,7 @@ public class Test {
         //Actual output: "shoulders"
         //Test result: PASS
 
-        //Testcase:
+        //Testcase: 7
         //Input: "abs"
         //Expected output: "abs"
         String resultAbs = Function.switchMuscle("abs");
@@ -76,7 +76,7 @@ public class Test {
         //Actual output: "abs"
         //Test result: PASS
 
-        //Testcase:
+        //Testcase: 8
         //Input "volapyk"
         //Espected output: "volapyk"
         String resultTryAgain = Function.switchMuscle("volapyk");
