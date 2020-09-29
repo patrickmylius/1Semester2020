@@ -62,18 +62,21 @@ public class Test {
 
 
     }
+
     //Method, that holds the methods below, to get a cleaner syntax.
-    static void testResult(Remotes result, Remotes expectedResult){
+    static void testResult(Remotes result, Remotes expectedResult) {
         compareStrings(result.name, expectedResult.name);
         compareStrings(result.distance, expectedResult.distance);
         compareInts(result.battery, expectedResult.battery);
     }
+
     //Test returns, comparing String result and String expectedResult (name and distance)
     static void compareStrings(String result, String expectedResult) {
         if (result.equals(expectedResult)) {
             System.out.println("PASS");
         } else System.out.println("FAIL");
     }
+
     //Test returns, comparing int result and int expectedResult(Battery)
     static void compareInts(int result, int expectedResult) {
         if (result == (expectedResult)) {
