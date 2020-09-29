@@ -23,7 +23,7 @@ public class Test {
         //Testcase: 1
         //Testinput: "patrick"
         //Forventet output: new Remotes("Patrick", "10 feet", 50)
-        Remotes result1 = FunctionFindOwner.findOwner("patrick");
+        Remotes result1 = Function.findOwner("patrick");
         testResult(result1, outOwner1);
         //Faktisk output: new Remotes("Patrick", "10 feet", 50)
         //Testresultat: PASS
@@ -31,7 +31,7 @@ public class Test {
         //Testcase: 2
         //Testinput: "usamah"
         //Forventet output: new Remotes("Usamah", "30 feet", 25)
-        Remotes result2 = FunctionFindOwner.findOwner("usamah");
+        Remotes result2 = Function.findOwner("usamah");
         testResult(result2, outOwner2);
         //Faktisk output: new Remotes("Usamah", "30 feet", 25)
         //Testresultat: PASS
@@ -39,7 +39,7 @@ public class Test {
         //Testcase: 3
         //Testinput: "daniella"
         //Forventet output: new Remotes("Daniella", "40 feet", 69)
-        Remotes result3 = FunctionFindOwner.findOwner("daniella");
+        Remotes result3 = Function.findOwner("daniella");
         testResult(result3, outOwner3);
         //Faktisk output: new Remotes("Daniella", "40 feet", 69)
         //Testresultat: PASS
@@ -47,7 +47,7 @@ public class Test {
         //Testcase: 4
         //Testinput: "danijel"
         //Forventet output: new Remotes("Danijel", "20 feet", 99)
-        Remotes result4 = FunctionFindOwner.findOwner("danijel");
+        Remotes result4 = Function.findOwner("danijel");
         testResult(result4, outOwner4);
         //Faktisk output: new Remotes("Danijel", "20 feet", 99)
         //Testresultat: PASS
@@ -55,7 +55,7 @@ public class Test {
         //Testcase: 5
         //Testinput: "daniella"
         //Forventet output: new Remotes("Mikkel", "5 feet", 41)
-        Remotes result5 = FunctionFindOwner.findOwner("mikkel");
+        Remotes result5 = Function.findOwner("mikkel");
         testResult(result5, outOwner5);
         //Faktisk output: new Remotes("Mikkel", "5 feet", 41)
         //Testresultat: PASS

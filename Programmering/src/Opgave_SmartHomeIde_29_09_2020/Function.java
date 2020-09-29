@@ -8,7 +8,7 @@
 package Opgave_SmartHomeIde_29_09_2020;
 
 //Class that holds the programs function
-public class FunctionFindOwner {
+public class Function {
     //Method that takes String "remoteOwner"
     static Remotes findOwner(String remoteOwner) {
         Remotes owner1 = new Remotes("Patrick", "10 feet", 50);

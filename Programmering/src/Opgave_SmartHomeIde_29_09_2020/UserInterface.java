@@ -17,7 +17,7 @@ public class UserInterface {
         Scanner input = new Scanner(System.in);
         String remoteOwner = input.next();
         //Calls for findOwner method in Owners class and declares return to Object "owner"
-        Remotes owner = FunctionFindOwner.findOwner(remoteOwner);
+        Remotes owner = Function.findOwner(remoteOwner);
 
         //sout results
         System.out.println("Owner of remote: " + owner.name);
