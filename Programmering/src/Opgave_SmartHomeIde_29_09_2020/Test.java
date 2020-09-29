@@ -12,7 +12,7 @@ public class Test {
         //Currently hit a wall, due to the reason
         //That i can find my way, of what to catch on the object return.
         //Which makes it impossible for me, to match actual result with expected result.
-        Object outOwner1 = "patrick";
+        Object outOwner1 = new Remotes("Patrick", "10 feet", 50);
         String outOwner2;
         String outOwner3;
         String outOwner4;

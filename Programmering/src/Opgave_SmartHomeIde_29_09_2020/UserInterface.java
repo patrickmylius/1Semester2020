@@ -18,6 +18,7 @@ public class UserInterface {
         String remoteOwner = input.next();
         //Calls for findOwner method in Owners class and declares return to Object "owner"
         Remotes owner = FunctionFindOwner.findOwner(remoteOwner);
+        System.out.println(owner);
 
         //sout results
         System.out.println("Owner of remote: " + owner.name);
