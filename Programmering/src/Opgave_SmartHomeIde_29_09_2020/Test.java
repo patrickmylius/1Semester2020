@@ -16,7 +16,7 @@ public class Test {
         String outOwner2;
         String outOwner3;
         String outOwner4;
-        String outOtwner5;
+        String outOwner5;
 
         Remotes resultOwner = FunctionFindOwner.findOwner("patrick");
 
