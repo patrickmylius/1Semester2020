@@ -9,7 +9,7 @@ public class UserInterface {
         Scanner input = new Scanner(System.in);
         String membName = input.next();
         //runs findUser method, takes string membName(input). Return declared to GroupMember "student"
-        GroupMember student = ObjectsAndSwitch.findUser(membName);
+        GroupMember student = Function.findUser(membName);
 
         //sout returned objects and strings
         System.out.println("My name is " + student.name);

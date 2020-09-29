@@ -8,42 +8,42 @@
 package Undervisning_28_09_2020.Exercise_Class_Studerende;
 
 //
-public class ObjectsAndSwitch {
+public class Function {
     //findUser method, takes String membName from UserInterface class
     static GroupMember findUser(String membName) {
         //new Object
-        GroupMember patrick = new GroupMember("Patrick", 26, "Muscle training", "Lasagne");
+        GroupMember person1 = new GroupMember("Patrick", 26, "Muscle training", "Lasagne");
         //new Object
-        GroupMember usamah = new GroupMember("Usamah", 24, "Humanbeings behaviour", "Noobs in league of legends");
+        GroupMember person2 = new GroupMember("Usamah", 24, "Humanbeings behaviour", "Noobs in league of legends");
         //new Object
-        GroupMember daniella = new GroupMember("Daniella", 23, "Jehova", "Pizza");
+        GroupMember person3 = new GroupMember("Daniella", 23, "Jehova", "Pizza");
         //new Object
-        GroupMember mikkel = new GroupMember("Mikkel", 22, "Gaming", "Italian dishes");
+        GroupMember person4 = new GroupMember("Mikkel", 22, "Gaming", "Italian dishes");
         //new Object
-        GroupMember danijel = new GroupMember("Danijel", 22, "Coding", "Burger");
+        GroupMember person5 = new GroupMember("Danijel", 22, "Coding", "Burger");
 
         GroupMember memberFound;
         //Switch, running membName through statements.
         switch (membName.toLowerCase()) {
             case "patrick":
-                patrick.introduce();
-                memberFound = patrick;
+                person1.introduce();
+                memberFound = person1;
                 break;
             case "usamah":
-                usamah.introduce();
-                memberFound = usamah;
+                person2.introduce();
+                memberFound = person2;
                 break;
             case "daniella":
-                daniella.introduce();
-                memberFound = daniella;
+                person3.introduce();
+                memberFound = person3;
                 break;
             case "mikkel":
-                mikkel.introduce();
-                memberFound = mikkel;
+                person4.introduce();
+                memberFound = person4;
                 break;
             case "danijel":
-                danijel.introduce();
-                memberFound = danijel;
+                person5.introduce();
+                memberFound = person5;
                 break;
 
             default:
