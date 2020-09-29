@@ -17,7 +17,7 @@ public class Test {
         String outLegs = "legs";
         String outShoulders = "shoulders";
         String outAbs = "abs";
-        String outError = "volapyk";
+        String outWrongInput = "volapyk";
 
 
         //Testcase:
@@ -79,8 +79,8 @@ public class Test {
         //Testcase:
         //Input "volapyk"
         //Espected output: "volapyk"
-        String resultNull = Function.switchMuscle("volapyk");
-        compareStrings(resultNull, outError);
+        String resultTryAgain = Function.switchMuscle("volapyk");
+        compareStrings(resultTryAgain, outWrongInput);
         //Actual output: "volapyk"
         //Test result: PASS
 
