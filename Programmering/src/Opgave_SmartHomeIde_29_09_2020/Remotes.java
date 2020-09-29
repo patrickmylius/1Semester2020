@@ -17,8 +17,8 @@ public class Remotes extends RemoteVars {
     void blink() {
         System.out.println("Tracking light turned on");
     }
-    //Sets declared variables in RemoteVars class, to this.
-    Remotes(String name, String distance, int power) {
+    //Sets declared variables in RemoteVars class, to this const.
+    Remotes(String name, String distance, int power, String track) {
         this.name = name;
         this.distance = distance;
         this.battery = power;
