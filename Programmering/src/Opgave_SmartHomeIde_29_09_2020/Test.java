@@ -70,7 +70,6 @@ public class Test {
         //Testresultat: PASS
 
 
-
     }
 
     //Test return method, comparing actual return, with our expectedResult
@@ -79,7 +78,8 @@ public class Test {
             System.out.println("PASS");
         } else System.out.println("FAIL");
     }
-    static void compareInts(int result, int expectedResult){
+
+    static void compareInts(int result, int expectedResult) {
         if (result == (expectedResult)) {
             System.out.println("PASS");
         } else System.out.println("FAIL");
