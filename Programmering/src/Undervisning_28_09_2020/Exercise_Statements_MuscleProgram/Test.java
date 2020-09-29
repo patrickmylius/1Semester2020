@@ -26,7 +26,7 @@ public class Test {
         String resultChest = Function.switchMuscle("chest");
         compareStrings(resultChest, outChest);
         //Actual output: "chest"
-        //Test result: PPASS
+        //Test result: PASS
 
         //Testcase:
         //Input: "biceps"

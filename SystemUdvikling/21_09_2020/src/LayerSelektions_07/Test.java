@@ -19,6 +19,7 @@ public class Test {
         String result = Function.compute(3, 13);
         compareStrings(result, out1);
         //Actual output: "Der er 10 eller mere i mellem x og y"
+        //Test result: PASS
 
         //Testcase:
         //Input x = 0, y = 9
@@ -26,8 +27,10 @@ public class Test {
         String result2 = Function.compute(0, 9);
         compareStrings(result2, out2);
         //Actual output: "Der er ikke 10 i mellem x og y"
+        //Test result: PASS
 
     }
+
     //Test method, comparing actual string output, with our expectedResult
     static void compareStrings(String result, String expectedResult) {
         if (result.equals(expectedResult)) {
