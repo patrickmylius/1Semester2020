@@ -7,8 +7,6 @@
  */
 package Opgave_SmartHomeIde_29_09_2020;
 
-import java.lang.reflect.Method;
-
 //Test class for SmartHomeIde Assignment
 public class Test {
     public static void main(String[] args) {
@@ -26,9 +24,7 @@ public class Test {
         //Testinput: "patrick"
         //Forventet output: new Remotes("Patrick", "10 feet", 50)
         Remotes result1 = FunctionFindOwner.findOwner("patrick");
-        compareStrings(result1.name, outOwner1.name);
-        compareStrings(result1.distance, outOwner1.distance);
-        compareInts(result1.battery, outOwner1.battery);
+        testResult(result1, outOwner1);
         //Faktisk output: new Remotes("Patrick", "10 feet", 50)
         //Testresultat: PASS
 
@@ -36,9 +32,7 @@ public class Test {
         //Testinput: "usamah"
         //Forventet output: new Remotes("Usamah", "30 feet", 25)
         Remotes result2 = FunctionFindOwner.findOwner("usamah");
-        compareStrings(result2.name, outOwner2.name);
-        compareStrings(result2.distance, outOwner2.distance);
-        compareInts(result2.battery, outOwner2.battery);
+        testResult(result2, outOwner2);
         //Faktisk output: new Remotes("Usamah", "30 feet", 25)
         //Testresultat: PASS
 
@@ -46,9 +40,7 @@ public class Test {
         //Testinput: "daniella"
         //Forventet output: new Remotes("Daniella", "40 feet", 69)
         Remotes result3 = FunctionFindOwner.findOwner("daniella");
-        compareStrings(result3.name, outOwner3.name);
-        compareStrings(result3.distance, outOwner3.distance);
-        compareInts(result3.battery, outOwner3.battery);
+        testResult(result3, outOwner3);
         //Faktisk output: new Remotes("Daniella", "40 feet", 69)
         //Testresultat: PASS
 
@@ -56,9 +48,7 @@ public class Test {
         //Testinput: "danijel"
         //Forventet output: new Remotes("Danijel", "20 feet", 99)
         Remotes result4 = FunctionFindOwner.findOwner("danijel");
-        compareStrings(result4.name, outOwner4.name);
-        compareStrings(result4.distance, outOwner4.distance);
-        compareInts(result4.battery, outOwner4.battery);
+        testResult(result4, outOwner4);
         //Faktisk output: new Remotes("Danijel", "20 feet", 99)
         //Testresultat: PASS
 
@@ -66,25 +56,28 @@ public class Test {
         //Testinput: "daniella"
         //Forventet output: new Remotes("Mikkel", "5 feet", 41)
         Remotes result5 = FunctionFindOwner.findOwner("mikkel");
-        compareStrings(result5.name, outOwner5.name);
-        compareStrings(result5.distance, outOwner5.distance);
-        compareInts(result5.battery, outOwner5.battery);
+        testResult(result5, outOwner5);
         //Faktisk output: new Remotes("Mikkel", "5 feet", 41)
         //Testresultat: PASS
 
 
     }
-    //Test return method, comparing actual return, with our expectedResult
+    //Method, that holds the methods below, to get a cleaner syntax.
+    static void testResult(Remotes result, Remotes expectedResult){
+        compareStrings(result.name, expectedResult.name);
+        compareStrings(result.distance, expectedResult.distance);
+        compareInts(result.battery, expectedResult.battery);
+    }
+    //Test returns, comparing String result and String expectedResult (name and distance)
     static void compareStrings(String result, String expectedResult) {
         if (result.equals(expectedResult)) {
             System.out.println("PASS");
         } else System.out.println("FAIL");
     }
-
+    //Test returns, comparing int result and int expectedResult(Battery)
     static void compareInts(int result, int expectedResult) {
         if (result == (expectedResult)) {
             System.out.println("PASS");
         } else System.out.println("FAIL");
     }
-
 }
