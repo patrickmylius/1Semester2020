@@ -7,6 +7,8 @@
  */
 package Opgave_SmartHomeIde_29_09_2020;
 
+import java.lang.reflect.Method;
+
 //Test class for SmartHomeIde Assignment
 public class Test {
     public static void main(String[] args) {
@@ -18,6 +20,7 @@ public class Test {
         Remotes outOwner3 = new Remotes("Daniella", "40 feet", 69);
         Remotes outOwner4 = new Remotes("Danijel", "20 feet", 99);
         Remotes outOwner5 = new Remotes("Mikkel", "5 feet", 41);
+
 
         //Testcase
         //Testinput: "patrick"
@@ -71,7 +74,6 @@ public class Test {
 
 
     }
-
     //Test return method, comparing actual return, with our expectedResult
     static void compareStrings(String result, String expectedResult) {
         if (result.equals(expectedResult)) {

@@ -22,38 +22,33 @@ public class FunctionFindOwner {
         //Returns "remoteOwner" now holds an owner.
         switch (remoteOwner.toLowerCase()) {
             case "patrick":
-                if (owner1.battery >= 50) {
-                    owner1.trackRemote();
-                } else owner1.blink();
+                flashOrBlink(owner1);
                 ownerFound = owner1;
                 break;
             case "usamah":
-                if (owner2.battery >= 50) {
-                    owner2.trackRemote();
-                } else owner2.blink();
+               flashOrBlink(owner2);
                 ownerFound = owner2;
                 break;
             case "daniella":
-                if (owner3.battery >= 50) {
-                    owner3.trackRemote();
-                } else owner3.blink();
+                flashOrBlink(owner3);
                 ownerFound = owner3;
                 break;
             case "danijel":
-                if (owner4.battery >= 50) {
-                    owner4.trackRemote();
-                } else owner4.blink();
+                flashOrBlink(owner4);
                 ownerFound = owner4;
                 break;
             case "mikkel":
-                if (owner5.battery >= 50) {
-                    owner5.trackRemote();
-                } else owner5.blink();
+                flashOrBlink(owner5);
                 ownerFound = owner5;
                 break;
             default:
                 return new Remotes("No owner has that name", " ", 0);
         }
         return ownerFound;
+    }
+    static void flashOrBlink(Remotes owner){
+        if (owner.battery >= 50){
+            owner.trackRemote();
+        } else owner.blink();
     }
 }
