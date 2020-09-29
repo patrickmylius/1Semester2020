@@ -8,7 +8,7 @@ public class Metoder_01 {
         skrivAdresse("batman");
     }
 
-    //methode som tager imod "navn" + if loop
+    //methode som tager imod "navn" + indeholder if loop
     static void skrivAdresse(String navn) {
         //if loop is name input is "patrick" or "batman"
         if (navn == "patrick") {
