@@ -6,6 +6,7 @@
  * 29-09-2020
  */
 package Opgave_SmartHomeIde_29_09_2020;
+
 //Class that holds the programs function
 public class FunctionFindOwner {
     //Method that takes String "remoteOwner"
@@ -26,7 +27,7 @@ public class FunctionFindOwner {
                 ownerFound = owner1;
                 break;
             case "usamah":
-               flashOrBlink(owner2);
+                flashOrBlink(owner2);
                 ownerFound = owner2;
                 break;
             case "daniella":
@@ -46,8 +47,9 @@ public class FunctionFindOwner {
         }
         return ownerFound;
     }
-    static void flashOrBlink(Remotes owner){
-        if (owner.battery >= 50){
+
+    static void flashOrBlink(Remotes owner) {
+        if (owner.battery >= 50) {
             owner.trackRemote();
         } else owner.blink();
     }
