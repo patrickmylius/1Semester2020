@@ -9,7 +9,7 @@ package Undervisning_30_09_2020.Hus;
 
 public class BigHouse extends Door {
     //Sets adress, houseLocked and houseUnlocked to strings
-    static String adress = "Kingosvej Bitch ";
+    static String adress = "Fortunvej 4 ";
     static String houseLocked = "HOUSE LOCKED:\nMain door closed\nMain door locked\nBackdoor closed\nBackDoor locked\nBasement door closed\nBasement door locked\nFronyard door closed\nFronyard door locked\nBedroom door closed\nBedroom door locked ";
     static String houseUnlocked = "HOUSE UNLOCKED:\nMain door unlocked\nMain door open\nBackdoor unlocked\nBasement door unlocked\nFrontyard door unlocked\nBedroom door unlocked\n";
 

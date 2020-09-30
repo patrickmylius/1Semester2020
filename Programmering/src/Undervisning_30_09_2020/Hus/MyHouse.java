@@ -12,7 +12,7 @@ package Undervisning_30_09_2020.Hus;
 //using doors from door class
 class MyHouse extends Door {
     //Sets adress, houseLocked and houseUnlocked to strings
-    static String adress = "Fortunvej 4 ";
+    static String adress = "Astersvej 33 ";
     static String houseLocked = "HOUSE LOCKED:\nMain door closed\nMain door locked\nBackdoor closed\nBackDoor locked\nBasement door closed\nBasement door locked";
     static String houseUnlocked = "HOUSE UNLOCKED:\nMain door unlocked\nMain door open\nBackdoor unlocked\nBasement door unlocked";
 
