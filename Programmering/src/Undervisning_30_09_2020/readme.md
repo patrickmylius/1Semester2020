@@ -7,6 +7,6 @@
 Implemented for loop, While loop and breakexercises from W3_Scool w. explaining notes.
 
 Implemented package Hus, containing 6 classes running a Door system,
-with user console input, to simulate a person locking and unlocking
+with user console input, to simulate two persons locking and unlocking
 the doors when leaving home or at arriving home.
 
