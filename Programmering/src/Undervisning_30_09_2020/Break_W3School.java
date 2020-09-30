@@ -43,7 +43,7 @@ public class Break_W3School {
         //skips value 4
         i = 0;
         while (i < 20) {
-            if (i==4) {
+            if (i == 4) {
                 i++;
                 continue;//skips value 4
             }
