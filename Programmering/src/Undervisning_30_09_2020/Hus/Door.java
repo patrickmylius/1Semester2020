@@ -1,6 +1,6 @@
 package Undervisning_30_09_2020.Hus;
 
-public class Door extends Function {
+public class Door {
     boolean locked;
     boolean closed;
 
