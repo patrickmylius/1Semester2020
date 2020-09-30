@@ -7,14 +7,11 @@
  */
 package Undervisning_30_09_2020.Hus;
 
-//Class MyHouse extending door containing Obj mainDoor, backDoor and basementDoor from Door class
-//Simulates a house with 3 entrys, maindoor, backdoor and basementdoor
-//using doors from door class
-class MyHouse extends Door {
+public class BigHouse extends Door {
     //Sets adress, houseLocked and houseUnlocked to strings
-    static String adress = "Fortunvej 4 ";
-    static String houseLocked = "HOUSE LOCKED:\nMain door closed\nMain door locked\nBackdoor closed\nBackDoor locked\nBasement door closed\nBasement door locked";
-    static String houseUnlocked = "HOUSE UNLOCKED:\nMain door unlocked\nMain door open\nBackdoor unlocked\nBasement door unlocked";
+    static String adress = "Kingosvej Bitch ";
+    static String houseLocked = "HOUSE LOCKED:\nMain door closed\nMain door locked\nBackdoor closed\nBackDoor locked\nBasement door closed\nBasement door locked\nFronyard door closed\nFronyard door locked\nBedroom door closed\nBedroom door locked ";
+    static String houseUnlocked = "HOUSE UNLOCKED:\nMain door unlocked\nMain door open\nBackdoor unlocked\nBasement door unlocked\nFrontyard door unlocked\nBedroom door unlocked\n";
 
     //Method unlocks all doors and opens main door
     static void unlockHome() {
@@ -22,6 +19,9 @@ class MyHouse extends Door {
         mainDoor.Open();
         backDoor.openLock();
         basementDoor.openLock();
+        frontyardDoor.openLock();
+        bedroomDoor.openLock();
+        promptUserUnlock();
     }
 
     //Method closes main door and lock all doors
@@ -32,11 +32,18 @@ class MyHouse extends Door {
         backDoor.locked();
         basementDoor.close();
         basementDoor.locked();
+        frontyardDoor.close();
+        frontyardDoor.locked();
+        bedroomDoor.close();
+        bedroomDoor.locked();
+        promptUserLock();
     }
+
     //Method returning adress and houseLocked
     static String promptUserLock() {
         return adress + houseLocked;
     }
+
     //Method returning adress and houseUnlocked
     static String promptUserUnlock() {
         return adress + houseUnlocked;

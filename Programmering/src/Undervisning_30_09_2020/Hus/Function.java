@@ -2,19 +2,26 @@ package Undervisning_30_09_2020.Hus;
 
 public class Function {
     //method house status, returns String
-    static String houseStatus(String answer) {
-        String houseLocked = "HOUSE UNLOCKED:\nMain door is unlocked\nMain door is open\nBackdoor is unlocked\nBasement door is unlocked";
-        String houseUnlocked = "HOUSE LOCKED:\nMain door is closed\nMain door is locked\nBackdoor is locked\nBasement door is locked";
+    static String houseStatus(String password, String answer) {
+        //if, else if statement, deciding houseStatus string return based on user inputs
+        if (password.equalsIgnoreCase("1") && answer.equalsIgnoreCase("yes")) {
+            BigHouse.unlockHome();
+            return BigHouse.promptUserUnlock();
 
-        //When user input equals "yes", run home method and return houseUnlocked
-        //Any other user input, runs lockHouse method return houseLocked
-        if (answer.equalsIgnoreCase("yes")) {
-            MyHouse.home();
-            return houseLocked;
-        } else
-            MyHouse.lockHouse();
-        return houseUnlocked;
+        } else if (password.equalsIgnoreCase("1") && answer.equalsIgnoreCase("no")) {
+            BigHouse.lockHome();
+            return BigHouse.promptUserLock();
+
+        } else if (password.equalsIgnoreCase("2") && answer.equalsIgnoreCase("yes")) {
+            MyHouse.unlockHome();
+            return MyHouse.promptUserUnlock();
+
+        } else if (password.equalsIgnoreCase("2") && answer.equalsIgnoreCase("no")) {
+            MyHouse.lockHome();
+            return MyHouse.promptUserLock();
+        } else return null;
+
 
     }
-
 }
+
