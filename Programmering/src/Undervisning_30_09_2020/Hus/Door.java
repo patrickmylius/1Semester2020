@@ -6,11 +6,6 @@ public class Door {
     boolean locked;
     boolean closed;
 
-    public Door(boolean locked, boolean closed) {
-        this.locked = locked;
-        this.closed = closed;
-    }
-
     public Door() {
     }
 
