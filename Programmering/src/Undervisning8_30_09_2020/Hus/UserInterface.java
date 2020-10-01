@@ -14,6 +14,7 @@ public class UserInterface {
         //Class function class and runs houseStatus method with inputs
         //sets it to houseStatus and souts
         String houseStatus = Function.houseStatus(password, answer);
+        //Souts locking status of house
         System.out.println(houseStatus);
     }
 }

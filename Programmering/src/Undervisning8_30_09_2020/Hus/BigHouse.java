@@ -21,7 +21,6 @@ public class BigHouse extends Door {
         basementDoor.openLock();
         frontyardDoor.openLock();
         bedroomDoor.openLock();
-        promptUserUnlock();
     }
 
     //Method closes main door and lock all doors
@@ -36,7 +35,6 @@ public class BigHouse extends Door {
         frontyardDoor.locked();
         bedroomDoor.close();
         bedroomDoor.locked();
-        promptUserLock();
     }
 
     //Method returning adress and houseLocked
