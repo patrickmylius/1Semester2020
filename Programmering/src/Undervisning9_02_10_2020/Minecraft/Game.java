@@ -12,15 +12,14 @@ public class Game {
         System.out.println("Spillet er startet");
 
         Sheep martha = new Sheep();
+
         Dirt dirt1 = new Dirt();
         Dirt dirt2 = new Dirt();
-        Dirt dirt3 = new Dirt();
-        Dirt dirt4 = new Dirt();
+
 
         Wood wood1 = new Wood();
         Wood wood2 = new Wood();
-        Wood wood3 = new Wood();
-        Wood wood4 = new Wood();
+
     }
     static String ObjectAdded(String name) {
     return "One " + name + " added to the map";
