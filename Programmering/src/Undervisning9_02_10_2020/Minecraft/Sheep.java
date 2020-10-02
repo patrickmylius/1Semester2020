@@ -12,6 +12,14 @@ public class Sheep {
     Head head;
     Body body;
     Feet foot1, foot2, foot3, foot4;
+
+    public void roar() {
+        System.out.println("Meeeheeheeheehee");
+    }
+    public void shit(){
+        System.out.println("Plop plop");
+    }
+
     public Sheep() {
         System.out.println(Game.ObjectAdded("Sheep"));
     }

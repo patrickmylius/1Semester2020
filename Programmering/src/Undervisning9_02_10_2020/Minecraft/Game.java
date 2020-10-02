@@ -7,6 +7,7 @@
  */
 package Undervisning9_02_10_2020.Minecraft;
 
+
 public class Game {
     static void start() {
         System.out.println("Spillet er startet");
@@ -25,6 +26,12 @@ public class Game {
         Player player4 = new Player("Danijel", 4, 130, 125, "Male", "Indoor", 40);
         Player player5 = new Player("Mikkel", 5, 140, 135, "Male", "Indoor", 15);
 
+        player1.sleep();
+        player2.run();
+        player3.sit();
+        player4.introduce();
+        player5.attack();
+
 
 
     }
@@ -32,8 +39,15 @@ public class Game {
     static String ObjectAdded(String name) {
         return "One " + name + " added to the map";
     }
-    static String Stats(int level, int hp, int mana, String gender, String location, int creaturesKilled){
-        return "Level: " + level + "\nHP: " + hp + "\nMANA" + mana + "\nGender: " + gender + "\nLocation: " + location + "\nMOBS: " + creaturesKilled;
+
+    static String Stats(String name, int level, int hp, int mana, String gender, String location, int creaturesKilled) {
+        return "Name: " + name + "" +
+                "\nLevel: " + level + "" +
+                "\nHP: " + hp + "" +
+                "\nMANA: " + mana + "" +
+                "\nGender: " + gender + "" +
+                "\nLocation: " + location + "" +
+                "\nMOBS: " + creaturesKilled + "\n";
     }
 }
 
