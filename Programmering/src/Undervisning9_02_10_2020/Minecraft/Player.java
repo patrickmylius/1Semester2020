@@ -28,7 +28,7 @@ public class Player extends Stats {
         //Calls Game class, executing ObjectAdded method sout player name.
         System.out.println(Game.ObjectAdded(name));
         //Calls game class, executes playerStats souts player stats.
-        System.out.println(Game.playerStats(level, hp, mana, gender, location, creaturesKilled));
+        System.out.println(Game.Stats(level, hp, mana, gender, location, creaturesKilled));
 
     }
 }

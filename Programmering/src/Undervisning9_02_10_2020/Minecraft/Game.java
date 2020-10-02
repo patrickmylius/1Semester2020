@@ -32,7 +32,7 @@ public class Game {
     static String ObjectAdded(String name) {
         return "One " + name + " added to the map";
     }
-    static String playerStats(int level, int hp, int mana, String gender, String location, int creaturesKilled){
+    static String Stats(int level, int hp, int mana, String gender, String location, int creaturesKilled){
         return "Level: " + level + "\nHP: " + hp + "\nMANA" + mana + "\nGender: " + gender + "\nLocation: " + location + "\nMOBS: " + creaturesKilled;
     }
 }
