@@ -7,12 +7,5 @@
  */
 package Undervisning9_02_10_2020.Minecraft;
 
-public class Sheep {
-
-    Head head;
-    Body body;
-    Feet foot1, foot2, foot3, foot4;
-    public Sheep() {
-        System.out.println(Game.ObjectAdded("Sheep"));
-    }
+public class Hand {
 }

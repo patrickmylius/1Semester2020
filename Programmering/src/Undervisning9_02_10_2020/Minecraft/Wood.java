@@ -14,11 +14,15 @@ public class Wood {
     private boolean canBreak = true;
 
     Wood() {
-
         System.out.println(Game.ObjectAdded("Wood"));
     }
 
-    public void getWoodType(String woodType) {
+    public String getWoodType() {
+        return woodType;
+    }
+
+    public void setWoodType(String woodType) {
+        //Safety
         if (woodType.equals("Oak") || woodType.equals("Dark Oak") || woodType.equals("Birch")) {
             this.woodType = "Oak";
         } else {

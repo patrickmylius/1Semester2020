@@ -9,7 +9,7 @@ package Undervisning9_02_10_2020.Minecraft;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("******** Minecraft 0.1 ********");
+        System.out.println("******** Minecraft 0.CP ********");
         System.out.println("Game menu");
         Game.start();
     }
