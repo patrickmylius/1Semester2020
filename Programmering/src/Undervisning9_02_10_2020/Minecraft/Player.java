@@ -13,6 +13,7 @@ public class Player extends Stats {
     Body body;
     Hand hand1, hand2;
     Feet foot1, foot2;
+    Stats stats;
 
     //Player constructer. set stats, to object player.
     Player(String name, int level, int hp, int mana, String gender, String location, int creaturesKilled) {
