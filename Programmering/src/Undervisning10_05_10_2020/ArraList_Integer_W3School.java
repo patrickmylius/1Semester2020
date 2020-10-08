@@ -29,7 +29,6 @@ public class ArraList_Integer_W3School {
             System.out.println(i);
         }
 
-
     }
 }
 
