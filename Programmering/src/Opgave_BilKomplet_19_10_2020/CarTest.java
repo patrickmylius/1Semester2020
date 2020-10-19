@@ -11,7 +11,6 @@ public class CarTest {
 
     public static void main(String[] args) {
         testSuite();
-        testCorrectKey();
 
     }
 
@@ -22,6 +21,9 @@ public class CarTest {
         testCorrectKey();
         System.out.print("Test 2 (Car must be off): ");
         testWrongKey();
+        System.out.println("Test 3 (Aircon must be on): ");
+        testAircon();
+
 
     }
 
@@ -37,6 +39,17 @@ public class CarTest {
         CarKey peugeotKey = new CarKey("password123");
 
         peugeot.turnEngineOn(peugeotKey);
+
+    }
+
+    // Method contains object car/ui
+    // tests turnAirconOn
+    private static void testAircon() {
+        Car peugot = new Car();
+        UserInterface ui = new UserInterface();
+        peugot.setUI(ui);
+
+        peugot.turnAirconOn();
 
     }
 
