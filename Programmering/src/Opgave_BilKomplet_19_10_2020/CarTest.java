@@ -23,8 +23,12 @@ public class CarTest {
         testCorrectKey();
         System.out.print("Test 2 (Car must be off): ");
         testWrongKey();
-        System.out.println("Test 3 (Aircon must be on): ");
+        System.out.print("\nTest 3 (Aircon must be on): ");
         testAircon();
+        System.out.print("\nTest 4 (GPS must turn on): ");
+        testGPSon();
+        System.out.println("Test 5 (GPS must be off): ");
+        testGPSoff();
 
 
     }
@@ -53,6 +57,26 @@ public class CarTest {
 
         peugot.turnAirconOn();
 
+    }
+    //Method constains object car/ui
+    //Test if gps activates
+    private static void testGPSon() {
+
+        Car peogot = new Car();
+        UserInterface ui2 = new UserInterface();
+        peogot.setUI(ui2);
+
+        peogot.gpsActivate();
+
+    }
+    //Method constains object car/ui
+    //Test if gps turns off, when engine is not on
+    private static void testGPSoff() {
+        Car peogot = new Car();
+        UserInterface ui3 = new UserInterface();
+        peogot.setUI(ui3);
+
+        peogot.gpsDeactivate();
     }
 
 

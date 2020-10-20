@@ -8,14 +8,30 @@
 package Opgave_BilKomplet_19_10_2020;
 
 import java.util.Scanner;
+
 // user interface class takes user input
 //returns temp to car
 public class UserInterface {
-    static int UIAircon() {
+
+    //UI Aircon metod, contains scanner and sets user input to variable.
+    //returns input to Car
+    static int uiAircon() {
         Scanner input = new Scanner(System.in);
-        System.out.println("Enter todays temperature: ");
+        System.out.print("Enter todays temperature: ");
         int temperature = input.nextInt();
 
         return temperature;
+    }
+
+    //uiDestination metjod, contains scanner and sets input to variable
+    //returns input to Car
+    static String uiDestination() {
+        Scanner input = new Scanner(System.in);
+
+        System.out.println(" GPS ON" + " " + "Greetings master, where are we going today... \n ");
+        System.out.print("Zealand, Køge or to the Gym: ");
+
+        String choiceOfDestination = input.next();
+        return choiceOfDestination;
     }
 }
