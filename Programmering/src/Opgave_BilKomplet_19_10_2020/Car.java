@@ -8,6 +8,7 @@
 package Opgave_BilKomplet_19_10_2020;
 
 public class Car {
+    //Declare car variables.
     private String password;
     private UserInterface ui;
     private int temperature;
@@ -22,7 +23,9 @@ public class Car {
         this.carBreakOn = true;
         this.airconOn = false;
     }
-
+    //Method that holds turnEngine on + carBreakOn.
+    //Holding statement, if password is correct turns car + carbreaks off
+    //else car egine off and break on.
     public void turnEngineOn(CarKey key) {
         if (key.getPassword().equals(this.password)) {
             System.out.println("Car is on");
