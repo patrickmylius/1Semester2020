@@ -18,16 +18,19 @@ public class CarTest {
     //Test 1/2: Car turning on off
     //Test 3: Aircon on
     private static void testSuite() {
-        System.out.println("Testsuite runs");
-        System.out.print("Test 1 (Car must be on): ");
+        System.out.println("Testsuite runs\n");
+        System.out.println("Tester enum");
+        System.out.println("Test 1 (EngineState must be on: ");
+        testEnum();
+        System.out.print("Test 2 (Car must be on): ");
         testCorrectKey();
-        System.out.print("Test 2 (Car must be off): ");
+        System.out.print("Test 3 (Car must be off): ");
         testWrongKey();
-        System.out.print("\nTest 3 (Aircon must be on): ");
+        System.out.print("\nTest 4 (Aircon must be on): ");
         testAircon();
-        System.out.print("\nTest 4 (GPS must turn on): ");
+        System.out.print("\nTest 5 (GPS must turn on): ");
         testGPSon();
-        System.out.println("Test 5 (GPS must be off): ");
+        System.out.println("Test 6 (GPS must be off): ");
         testGPSoff();
 
 
@@ -77,6 +80,10 @@ public class CarTest {
         peogot.setUI(ui3);
 
         peogot.gpsDeactivate();
+    }
+
+    private static void testEnum() {
+        System.out.println("EgineState: " + EngineState.ON);
     }
 
 
