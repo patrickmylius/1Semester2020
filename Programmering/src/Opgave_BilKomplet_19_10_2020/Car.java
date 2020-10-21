@@ -26,7 +26,10 @@ public class Car {
         this.airconOn = false;
         this.gpsON = false;
     }
-
+    //method choseCarModel, returns string
+    //Calls Userinterface class, executes uiCarModel method
+    //holds switch statement, checks userinput
+    //sets match to modelPicked and returns
     public static String choseCarModel() {
         String modelPicked = UserInterface.uiCarModel();
         String carModel = "Model: ";

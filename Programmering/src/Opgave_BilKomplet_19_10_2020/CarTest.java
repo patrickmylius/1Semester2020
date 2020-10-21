@@ -6,6 +6,7 @@
  * 19-10-2020
  */
 package Opgave_BilKomplet_19_10_2020;
+
 //Testclass running test methods
 public class CarTest {
 
@@ -33,7 +34,6 @@ public class CarTest {
         testModelEnumFunctions();
 
 
-
         //Testing car Functions
         System.out.println("\nTesting Car functions. ");
         System.out.println("_________________________");
@@ -50,6 +50,7 @@ public class CarTest {
 
 
     }
+
     //Method testing start car, with correct key "password"
     private static void testCorrectKey() {
         Car peugeot = new Car();
@@ -57,6 +58,7 @@ public class CarTest {
 
         peugeot.turnEngineOn(peugeotKey);
     }
+
     //Method testing start car , with wrong key "password"
     private static void testWrongKey() {
         Car peugeot = new Car();
@@ -76,6 +78,7 @@ public class CarTest {
         peugot.turnAirconOn();
 
     }
+
     //Method constains object car/ui
     //Test if gps activates
     private static void testGPSon() {
@@ -87,6 +90,7 @@ public class CarTest {
         peogot.gpsActivate();
 
     }
+
     //Method constains object car/ui
     //Test if gps turns off, when engine is not on
     private static void testGPSoff() {
@@ -96,18 +100,22 @@ public class CarTest {
 
         peogot.gpsDeactivate();
     }
+
     //Method souting EngineState + enum
     private static void testEnum() {
         System.out.println("EgineState: " + EngineState.ON);
     }
+
     //Method souting carModel + enum
     private static void testModelEnum1() {
         System.out.println("CarModel: " + Model.Ferrari);
     }
+
     //Method souting carModel + enum
     private static void testModelEnum2() {
         System.out.println("CarModel: " + Model.Opel);
     }
+
     //Testing using enum to chose a car in Enum class
     //Decided by user input
     private static void testModelEnumFunctions() {
