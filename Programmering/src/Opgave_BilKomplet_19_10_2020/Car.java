@@ -27,6 +27,28 @@ public class Car {
         this.gpsON = false;
     }
 
+    public static String choseCarModel() {
+        String modelPicked = UserInterface.uiCarModel();
+        String carModel = "Model: ";
+        switch (modelPicked.toLowerCase()) {
+            case "opel":
+                modelPicked = carModel + Model.Opel;
+                break;
+            case "ferrari":
+                modelPicked = carModel + Model.Ferrari;
+                break;
+            case "citroen":
+                modelPicked = carModel + Model.Citroen;
+                break;
+            case "peugot":
+                modelPicked = carModel + Model.Peugot;
+                break;
+            case "mazda":
+                modelPicked = carModel + Model.Mazda;
+        }
+        return modelPicked;
+    }
+
     //Method that holds turnEngine on + carBreakOn.
     //Holding statement, if password is correct turns car + carbreaks off
     //else car egine off and break on.

@@ -26,7 +26,13 @@ public class CarTest {
         System.out.println("Test 1 (EngineState must be on): ");
         testEnum();
         System.out.println("Test 2 (Model must be a ferrari): ");
-        testModelEnum();
+        testModelEnum1();
+        System.out.println("Test 3 (Model must be Opel): ");
+        testModelEnum2();
+        System.out.println("Test 4 (Model + function)");
+        testModelEnumFunctions();
+
+
 
         //Testing car Functions
         System.out.println("\nTesting Car functions. ");
@@ -95,8 +101,20 @@ public class CarTest {
         System.out.println("EgineState: " + EngineState.ON);
     }
     //Method souting carModel + enum
-    private static void testModelEnum() {
+    private static void testModelEnum1() {
         System.out.println("CarModel: " + Model.Ferrari);
+    }
+    //Method souting carModel + enum
+    private static void testModelEnum2() {
+        System.out.println("CarModel: " + Model.Opel);
+    }
+    //Testing using enum to chose a car in Enum class
+    //Decided by user input
+    private static void testModelEnumFunctions() {
+        String carModel = Car.choseCarModel();
+        System.out.println("\n" + carModel);
+        System.out.println("_________________________");
+
     }
 
 

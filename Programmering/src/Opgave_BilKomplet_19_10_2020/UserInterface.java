@@ -12,11 +12,21 @@ import java.util.Scanner;
 // user interface class takes user input
 //returns temp to car
 public class UserInterface {
+    static Scanner input = new Scanner(System.in);
+
+    //method returning string
+    static String uiCarModel() {
+        System.out.println("What model would you like to drive... ");
+        System.out.print("The models available are, ferrari, peugot, opel, Citroen, Mazda: ");
+        String carModel = input.next();
+
+        return carModel;
+    }
 
     //UI Aircon metod, contains scanner and sets user input to variable.
     //returns input to Car
     static int uiAircon() {
-        Scanner input = new Scanner(System.in);
+
         System.out.print("Enter todays temperature: ");
         int temperature = input.nextInt();
 
@@ -26,7 +36,6 @@ public class UserInterface {
     //uiDestination metjod, contains scanner and sets input to variable
     //returns input to Car
     static String uiDestination() {
-        Scanner input = new Scanner(System.in);
 
         System.out.println("GPS ON" + " " + "Greetings master, where are we going today... ");
         System.out.print("Zealand, Køge or to the Gym: ");
