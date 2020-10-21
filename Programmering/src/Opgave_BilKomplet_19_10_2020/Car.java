@@ -37,7 +37,6 @@ public class Car {
             carBreakOn = false;
             if (!carBreakOn) {
                 System.out.println("Carbreak is off!");
-                System.out.println();
             } else System.out.println("");
 
 
@@ -90,7 +89,7 @@ public class Car {
     //sets gpsON to false and souts string
     public void gpsDeactivate() {
         gpsON = false;
-        System.out.println("Engine is off, therefor GPS is turned off!");
+        System.out.println("GPS is off!");
     }
 
     // sets ui to this ui

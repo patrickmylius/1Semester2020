@@ -28,7 +28,7 @@ public class UserInterface {
     static String uiDestination() {
         Scanner input = new Scanner(System.in);
 
-        System.out.println(" GPS ON" + " " + "Greetings master, where are we going today... \n ");
+        System.out.println("GPS ON" + " " + "Greetings master, where are we going today... ");
         System.out.print("Zealand, Køge or to the Gym: ");
 
         String choiceOfDestination = input.next();
