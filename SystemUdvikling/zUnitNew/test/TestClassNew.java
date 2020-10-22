@@ -11,9 +11,18 @@ import zunit.TestSuit;
 public class TestClassNew extends TestSuit {
     @Override
     public void testMethodList() {
-        assertEquals(5, 5);//Ints
+        //Test 1:
+        assertEquals(5, 5);//Ints -
+        //Test 2:
+        assertEquals(3, 7);//Ints
+        //Test 3:
         assertEquals("5", "5");//String
+        //Test 4:
+        assertEquals("3" , "7");//String
+        //Test 5:
         assertEquals(5L, 5L);//Longs
+        //Test 6:
+        assertEquals(3L, 7L);//Longs
     }
 
     public static void main(String[] args) {
