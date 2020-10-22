@@ -24,9 +24,10 @@ public class TestClass extends TestSuit {
     }
 
     private void passingTest() {
+        assertEquals(5, 5);
 
     }
     private void failingTest() {
-
+        assertEquals(3, 7);
     }
 }

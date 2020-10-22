@@ -26,6 +26,12 @@ public abstract class TestSuit {
     public abstract void testMethodList();
 
     public void assertEquals(int expected, int actual) {
-
+        if (expected == actual) {
+            passed++;
+        } else {
+            failed++;
+            System.out.println("Test " + (passed + failed) + " has failed.\n" + "Expected result: " + expected + "\n" +
+                    "Actual result: " + (actual) + "\n ");
+        }
     }
 }
