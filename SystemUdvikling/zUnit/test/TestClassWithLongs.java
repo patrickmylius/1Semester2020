@@ -1,4 +1,4 @@
-import zunit.TestSuit;
+import zunit.TestSuite;
 
 /**
  * Developed by Patrick Grønvold
@@ -8,7 +8,7 @@ import zunit.TestSuit;
  * 22-10-2020
  */
 
-public class TestClassWithLongs extends TestSuit {
+public class TestClassWithLongs extends TestSuite {
 
     @Override
     public void testMethodList() {
@@ -19,7 +19,7 @@ public class TestClassWithLongs extends TestSuit {
 
     public static void main(String[] args) {
         TestClassWithLongs testClass = new TestClassWithLongs();
-        testClass.runTestSuit();
+        testClass.runTestSuite();
 
     }
 

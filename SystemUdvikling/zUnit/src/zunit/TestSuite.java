@@ -8,11 +8,11 @@ package zunit;
  * 22-10-2020
  */
 
-public abstract class TestSuit {
+public abstract class TestSuite {
     private int passed; //Private, only visible for this class
     private int failed;
 
-    public void runTestSuit() {
+    public void runTestSuite() {
         passed = 0;
         failed = 0;
 
