@@ -18,7 +18,7 @@ public class TestClass extends TestSuite {
     }
 
     public static void main(String[] args) {
-        TestClassNew testClass = new TestClassNew();
+        TestClass testClass = new TestClass();
         testClass.runTestSuit();
 
     }
