@@ -27,6 +27,7 @@ public class TestClass extends TestSuite {
         assertEquals(5, 5);
 
     }
+
     private void failingTest() {
         assertEquals(3, 7);
     }

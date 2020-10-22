@@ -1,6 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" build-on-make="true" name="zUnit:jar">
-    <output-path>$PROJECT_DIR$/out</output-path>
-    <root id="archive" name="zUnit_jar.jar" />
-  </artifact>
-</component>
