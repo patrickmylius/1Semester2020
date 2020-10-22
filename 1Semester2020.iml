@@ -13,6 +13,8 @@
       <sourceFolder url="file://$MODULE_DIR$/SystemUdvikling/21_09_2020/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/SystemUdvikling/Undervisning3_21_09_2020/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/SystemUdvikling/Undervisning2_10_09_2020/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/SystemUdvikling/zUnit/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/SystemUdvikling/zUnit/test" isTestSource="true" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
