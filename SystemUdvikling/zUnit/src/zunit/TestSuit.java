@@ -25,6 +25,7 @@ public abstract class TestSuit {
 
     public abstract void testMethodList();
 
+    //Compare ints
     public void assertEquals(int expected, int actual) {
         if (expected == actual) {
             passed++;
@@ -34,6 +35,8 @@ public abstract class TestSuit {
                     "Actual result: " + (actual) + "\n ");
         }
     }
+
+    //Compare Strings
     public void assertEquals(String expected, String actual) {
         if (expected.equals(actual)) {
             passed++;
@@ -43,8 +46,20 @@ public abstract class TestSuit {
                     "Actual result: " + (actual) + "\n ");
         }
     }
+
+    //Compare longs - valueOf().equals()
     public void assertEquals(long expected, long actual) {
         if (Long.valueOf(expected).equals(Long.valueOf(actual))) {
+            passed++;
+        } else {
+            failed++;
+            System.out.println("Test " + (passed + failed) + " has failed.\n" + "Expected result: " + expected + "\n" +
+                    "Actual result: " + (actual) + "\n ");
+        }
+    }
+    //Compare doubles - (Lacking delta) for truly computing double equality.
+    public void assertEquals(double expected, double actual) {
+        if (expected == actual) {
             passed++;
         } else {
             failed++;
