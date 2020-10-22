@@ -12,7 +12,7 @@ public abstract class TestSuite {
     private int passed; //Private, only visible for this class
     private int failed;
 
-    public void runTestSuite() {
+    public void runTestSuit() {
         passed = 0;
         failed = 0;
 

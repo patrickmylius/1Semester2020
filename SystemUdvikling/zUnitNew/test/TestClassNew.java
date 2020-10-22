@@ -30,6 +30,6 @@ public class TestClassNew extends TestSuite {
     }
 
     public static void main(String[] args) {
-        new TestClassNew().runTestSuite();
+        new TestClassNew().runTestSuit();
     }
 }

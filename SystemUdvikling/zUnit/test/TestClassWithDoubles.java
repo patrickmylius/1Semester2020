@@ -18,7 +18,7 @@ public class TestClassWithDoubles extends TestSuite {
 
     public static void main(String[] args) {
         TestClassWithLongs testClass = new TestClassWithLongs();
-        testClass.runTestSuite();
+        testClass.runTestSuit();
 
     }
 
