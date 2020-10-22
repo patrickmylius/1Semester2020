@@ -57,6 +57,7 @@ public abstract class TestSuit {
                     "Actual result: " + (actual) + "\n ");
         }
     }
+
     //Compare doubles - (Lacking delta) for truly computing double equality.
     public void assertEquals(double expected, double actual) {
         if (expected == actual) {
