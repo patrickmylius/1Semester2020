@@ -13,6 +13,7 @@ public class TestClassNew extends TestSuit {
     public void testMethodList() {
         assertEquals(5, 5);//Ints
         assertEquals("5", "5");//String
+        assertEquals(5L, 5L);//Longs
     }
 
     public static void main(String[] args) {
