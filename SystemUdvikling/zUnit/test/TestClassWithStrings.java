@@ -8,8 +8,7 @@ import zunit.TestSuit;
  * 22-10-2020
  */
 
-public class TestClass extends TestSuit {
-
+public class TestClassWithStrings extends TestSuit {
     @Override
     public void testMethodList() {
         passingTest();
@@ -24,10 +23,11 @@ public class TestClass extends TestSuit {
     }
 
     private void passingTest() {
-        assertEquals(5, 5);
+        assertEquals(new String("5"),new String("5"));
 
     }
+
     private void failingTest() {
-        assertEquals(3, 7);
+        assertEquals(new String("3"), new String("7"));
     }
 }

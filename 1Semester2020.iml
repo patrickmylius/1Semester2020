@@ -15,8 +15,12 @@
       <sourceFolder url="file://$MODULE_DIR$/SystemUdvikling/Undervisning2_10_09_2020/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/SystemUdvikling/zUnit/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/SystemUdvikling/zUnit/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/SystemUdvikling/zUnitNew/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/SystemUdvikling/zUnitNew/test" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/SystemUdvikling/zUnit/out" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="test" level="project" />
   </component>
 </module>
