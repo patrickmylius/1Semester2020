@@ -8,7 +8,7 @@
 package Undervisning12_23_10_2020;
 
 public class Garage {
-    static String[] color = {"blue", "red", "green", "yellow", "black"};
+    static String[] color = {"Blue", "Red", "Green", "Yellow", "Black"};
 
     public static void main(String[] args) {
 
@@ -17,8 +17,8 @@ public class Garage {
         for (int i = 0; i < cars.length; i++) {
             //fills array with 1 mil cars of diff colors.
             cars[i] = new Car(randomColor()); //creates a new car for every i from 0-100000
-            System.out.println("Bil: " + i + 1 + ". "); //sout arr numb + 1.
-            System.out.println(cars[i].color);//Sout random generated car color.
+            System.out.println("Car: " + i + 1 + ". "); //sout arr numb + 1.
+            System.out.println("Color: " + cars[i].color);//Sout random generated car color.
         }
     }
 
