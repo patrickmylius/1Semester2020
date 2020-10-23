@@ -17,7 +17,7 @@ public class Garage {
         for (int i = 0; i < cars.length ; i++) {
             //fills array with 1 mil cars of diff colors.
             cars[i] = new Car(randomColor()); //creates a new car for every i from 0-100000
-            System.out.println(i + 1 + ". "); //sout arr numb + 1.
+            System.out.println("Bil: " + i + 1 + ". "); //sout arr numb + 1.
             System.out.println(cars[i].color);//Sout random generated car color.
         }
     }
