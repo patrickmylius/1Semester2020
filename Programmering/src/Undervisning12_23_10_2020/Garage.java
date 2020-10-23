@@ -14,17 +14,18 @@ public class Garage {
 
         Car[] cars = new Car[1000000]; //creates var array with 1mil slots.
         //fori loop creating 100000 blue cars.
-        for (int i = 0; i < cars.length ; i++) {
+        for (int i = 0; i < cars.length; i++) {
             //fills array with 1 mil cars of diff colors.
             cars[i] = new Car(randomColor()); //creates a new car for every i from 0-100000
             System.out.println("Bil: " + i + 1 + ". "); //sout arr numb + 1.
             System.out.println(cars[i].color);//Sout random generated car color.
         }
     }
+
     //Method returning randomly between colors from String[] "color"
     //Colors: blue, red, green, yellow and black.
     static String randomColor() {
         double x = Math.random() * 5;
-        return color[(int)x];
+        return color[(int) x];
     }
 }
