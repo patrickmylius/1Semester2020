@@ -9,6 +9,8 @@ package Undervisning12_23_10_2020;
 
 public class Garage {
     static String[] color = {"Blue", "Red", "Green", "Yellow", "Black"};
+    static String[] minion = {MinionDriver.BOB.name(), MinionDriver.KEVIN.name(), MinionDriver.DAVE.name(), MinionDriver.CARL.name(), MinionDriver.STUART.name()};
+    static String[] model = {Model.AUDI.name(), Model.HYUNDAI.name(), Model.MERCEDES.name(), Model.PEUGOT.name(), Model.FERRARI.name()};
 
     public static void main(String[] args) {
 
@@ -18,7 +20,10 @@ public class Garage {
             //fills array with 1 mil cars of diff colors.
             cars[i] = new Car(randomColor()); //creates a new car for every i from 0-100000
             System.out.println("Car: " + i + 1 + ". "); //sout arr numb + 1.
+            System.out.println("Model: " + randomCarModel());
             System.out.println("Color: " + cars[i].color);//Sout random generated car color.
+            System.out.println("Minion driver: " + randomMinionDriver());
+
         }
     }
 
@@ -27,5 +32,17 @@ public class Garage {
     static String randomColor() {
         double x = Math.random() * 5;
         return color[(int) x];
+    }
+    //Method returning randomly between minions from String[] "minion" which inherits MinionDriver enum.
+    //minion: BOB, KEVIN, DAVE, CARL and STUART.
+    static String randomMinionDriver() {
+        double x = Math.random() * 5;
+        return minion[(int) x];
+    }
+    //Method returning randomly between models from String[] "model" which inherits Model enum.
+    //minion: AUDI, HYINDAI, MERCEDES, PEUGOT, FERRARI.
+    static String randomCarModel() {
+        double x = Math.random() * 5;
+        return model[(int) x];
     }
 }
