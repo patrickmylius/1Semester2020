@@ -11,18 +11,21 @@ package Undervisning13_26_10_2020;
 import java.util.Random;
 
 public class Farver {
+    //Declaring constants
     static final int x = 5;
     static final int y = 10;
+    //Declaring random
     static Random rand = new Random();
 
-
+    //Run
     public static void main(String[] args) {
+        //Declaring arr randColors bound by y.
         int[] randColors = new int[y];
 
-
+        //Fori loop, executes until i is 10
         for (int i = 0; i < y; i++) {
             int newColor;
-
+            //Declare array colors and sets colors
             String[] colors = new String[x];
             colors[0] = "Blue";
             colors[1] = "Red";
@@ -30,6 +33,8 @@ public class Farver {
             colors[3] = "White";
             colors[4] = "Yellow";
 
+            //Do-while loop
+            //executres randomColor and colorExists method
             do {
                 newColor = randomColor(colors);
                 if (colorExists(newColor, randColors))
@@ -41,12 +46,12 @@ public class Farver {
         }
 
     }
-
+    //Method returning random color
     public static int randomColor(String[] array) {
         int theColor = rand.nextInt(array.length);
         return theColor;
     }
-
+    //Method returns if color exists or not.
     public static boolean colorExists(int color, int[] array) {
         boolean exists = false;
         for (int j = 0; j < array.length; j++) {
