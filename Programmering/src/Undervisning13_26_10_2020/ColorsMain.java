@@ -10,7 +10,7 @@ package Undervisning13_26_10_2020;
 
 import java.util.Random;
 
-public class Farver {
+public class ColorsMain {
     //Declaring constants
     static final int X = 5;
     static final int Y = 4;
