@@ -12,21 +12,21 @@ import java.util.Random;
 
 public class Farver {
     //Declaring constants
-    static final int x = 5;
-    static final int y = 10;
+    static final int X = 5;
+    static final int Y = 4;
     //Declaring random
     static Random rand = new Random();
 
     //Run
     public static void main(String[] args) {
         //Declaring arr randColors bound by y.
-        int[] randColors = new int[y];
+        int[] randColors = new int[Y];
 
         //Fori loop, executes until i is 10
-        for (int i = 0; i < y; i++) {
+        for (int i = 0; i < Y; i++) {
             int newColor;
             //Declare array colors and sets colors
-            String[] colors = new String[x];
+            String[] colors = new String[X];
             colors[0] = "Blue";
             colors[1] = "Red";
             colors[2] = "Green";
@@ -41,7 +41,7 @@ public class Farver {
                     System.out.println("Color exists, generates new.\n" + colors[newColor]);
             } while (colorExists(newColor, randColors));
             randColors[i] = newColor;
-            System.out.println("Array index " + i + " indeholder farve " + randColors[i]);
+            System.out.println("Array index " + i + " indeholder farve " + colors[newColor]);
 
         }
 
