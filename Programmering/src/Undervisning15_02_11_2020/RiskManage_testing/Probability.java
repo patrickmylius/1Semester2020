@@ -7,5 +7,6 @@
  */
 package Undervisning15_02_11_2020.RiskManage_testing;
 
-public class Probability {
+public enum Probability {
+    LOW, MID, HIGH
 }
