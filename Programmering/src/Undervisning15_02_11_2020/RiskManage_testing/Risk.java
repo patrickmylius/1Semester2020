@@ -13,6 +13,10 @@ public class Risk {
     private double probabilityPercent;
     private Probability probabilityLevel;
 
+    Risk() {
+        probabilityPercent = 0.01;
+
+    }
 
     public String hello() {
         return "Hello";
