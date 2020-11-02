@@ -12,16 +12,20 @@ public class Colors {
     public final String BLUE = "BLUE";
     public final String[] colors = {"Red", "Blue", "Green", "Yellow", "White"};
 
+
     public static void main(String[] args) {
         //Creates object color
         Colors color = new Colors();
 
         String theColor; //Declares theColor as string var
+        String theColor2;
+        String theColor3;
+
         theColor = color.BLUE; //Sets theColor to Blue, from String var "BLUE"
-        theColor = color.colors[0]; //Sets theColor to first color in array "colors"
-        theColor = ColorsEnum.BLACK.name(); //Sets theColor to a specific color from ColorsEnum class.
+        theColor2 = color.colors[0]; //Sets theColor to first color in array "colors"
+        theColor3 = ColorsEnum.BLACK.name(); //Sets theColor to a specific color from ColorsEnum class.
 
         //souts the color.
-        System.out.println(theColor);
+        System.out.println(theColor + " " + theColor2  + " "  +theColor3);
     }
 }
