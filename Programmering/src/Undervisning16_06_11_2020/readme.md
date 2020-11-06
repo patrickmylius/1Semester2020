@@ -1,0 +1,1 @@
+###Todays topcis are - continue Algorithms, Daniel Yang Chapter 10 and Risk Manager.
