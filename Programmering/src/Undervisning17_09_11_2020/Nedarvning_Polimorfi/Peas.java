@@ -7,6 +7,11 @@
  */
 package Undervisning17_09_11_2020.Nedarvning_Polimorfi;
 
+//Class peas, extending behaviour from class Vegetables
 public class Peas extends Vegetables {
+
+    String sort = "Green";
+    String type = "Eatable";
+    boolean mature = false;
 
 }

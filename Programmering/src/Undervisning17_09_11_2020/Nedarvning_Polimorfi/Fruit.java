@@ -7,8 +7,11 @@
  */
 package Undervisning17_09_11_2020.Nedarvning_Polimorfi;
 
-public class Fruit extends Groseries {
+//Class fruit, extending behaviour from class Groceries
+public class Fruit extends Groceries {
+
     void coolDown() {
         System.out.println("cooled down");
     }
+
 }

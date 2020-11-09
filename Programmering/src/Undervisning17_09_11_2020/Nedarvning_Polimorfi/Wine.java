@@ -7,14 +7,11 @@
  */
 package Undervisning17_09_11_2020.Nedarvning_Polimorfi;
 
-import java.util.Date;
+//Wine extending behaviour from Liquior class
+public class Wine extends Liquor {
 
-public class Groseries {
-    double pricePrPiece;
-    Date bestBefore;
-    boolean canSell = true;
+    String sort = "Red";
+    String type = "Drinkable";
+    int alcoholPercent = 12;
 
-    void smidUd() {
-        canSell = false;
-    }
 }

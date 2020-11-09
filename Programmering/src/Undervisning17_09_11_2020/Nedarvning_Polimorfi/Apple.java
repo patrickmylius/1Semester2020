@@ -7,8 +7,11 @@
  */
 package Undervisning17_09_11_2020.Nedarvning_Polimorfi;
 
+//Class Aplle, extending behaviour from class Apple
 public class Apple extends Fruit {
+
     String sort = "Golden Delicious";
     String type = "Eatable";
     boolean mature = false;
+
 }

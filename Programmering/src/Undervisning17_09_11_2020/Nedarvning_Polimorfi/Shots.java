@@ -7,10 +7,11 @@
  */
 package Undervisning17_09_11_2020.Nedarvning_Polimorfi;
 
+//Class shots, extending behavior from Liquor class
+public class Shots extends Liquor {
 
-//Class vegetables extends behaviour from Groceries
-public class Vegetables extends Groceries {
-    void freeze() {
-        System.out.println("Frozen");
-    }
+    String sort = "Blue Owls";
+    String type = "Drinkable";
+    int alcoholPercent = 40;
+
 }
