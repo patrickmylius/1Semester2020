@@ -21,12 +21,27 @@ public class Main {
         a.mature = true;
         a.coolDown();
 
+        //Create new banana
+        Banana b = new Banana();
+        b. pricePrPiece = 5;
+        b.bestBefore = new Date(321312);
+        b.smidUd();
+        b.mature = true;
+        b.coolDown();
+
         //Create new peas
         Peas p = new Peas();
         p.pricePrPiece = 4;
         p.bestBefore = new Date(1608768000);
         p.freeze();
         p.mature = true;
+
+        //Create new Iceberg salad
+        IcebergSalad ib = new IcebergSalad();
+        ib.pricePrPiece = 15;
+        ib.bestBefore = new Date(23213);
+        ib.freeze();
+        ib.mature = true;
 
         //Create new wine
         Wine w = new Wine();
