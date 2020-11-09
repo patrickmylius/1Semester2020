@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Undervisning17_09_11_2020.Nedarvning_Polimorfi</OriginalElement>
+  <nodes>
+    <node x="788.0" y="320.0">Undervisning17_09_11_2020.Nedarvning_Polimorfi.Shots</node>
+    <node x="81.56249999999994" y="193.5">Undervisning17_09_11_2020.Nedarvning_Polimorfi.Vegetables</node>
+    <node x="623.0" y="320.0">Undervisning17_09_11_2020.Nedarvning_Polimorfi.Wine</node>
+    <node x="0.0" y="320.0">Undervisning17_09_11_2020.Nedarvning_Polimorfi.Peas</node>
+    <node x="0.0" y="463.0">Undervisning17_09_11_2020.Nedarvning_Polimorfi.Main</node>
+    <node x="707.3125" y="171.0">Undervisning17_09_11_2020.Nedarvning_Polimorfi.Liquor</node>
+    <node x="153.0" y="320.0">Undervisning17_09_11_2020.Nedarvning_Polimorfi.IcebergSalad</node>
+    <node x="383.0" y="0.0">Undervisning17_09_11_2020.Nedarvning_Polimorfi.Groceries</node>
+    <node x="470.0" y="320.0">Undervisning17_09_11_2020.Nedarvning_Polimorfi.Banana</node>
+    <node x="317.0" y="320.0">Undervisning17_09_11_2020.Nedarvning_Polimorfi.Apple</node>
+    <node x="391.31249999999994" y="193.5">Undervisning17_09_11_2020.Nedarvning_Polimorfi.Fruit</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Undervisning17_09_11_2020.Nedarvning_Polimorfi.Banana" target="Undervisning17_09_11_2020.Nedarvning_Polimorfi.Fruit">
+      <point x="0.0" y="-49.0" />
+      <point x="536.5" y="295.0" />
+      <point x="494.06249999999994" y="295.0" />
+      <point x="34.25" y="27.0" />
+    </edge>
+    <edge source="Undervisning17_09_11_2020.Nedarvning_Polimorfi.Liquor" target="Undervisning17_09_11_2020.Nedarvning_Polimorfi.Groceries">
+      <point x="0.0" y="-49.5" />
+      <point x="777.8125" y="146.0" />
+      <point x="511.33333333333337" y="146.0" />
+      <point x="51.33333333333337" y="60.5" />
+    </edge>
+    <edge source="Undervisning17_09_11_2020.Nedarvning_Polimorfi.Fruit" target="Undervisning17_09_11_2020.Nedarvning_Polimorfi.Groceries">
+      <point x="0.0" y="-27.0" />
+      <point x="0.0" y="60.5" />
+    </edge>
+    <edge source="Undervisning17_09_11_2020.Nedarvning_Polimorfi.Wine" target="Undervisning17_09_11_2020.Nedarvning_Polimorfi.Liquor">
+      <point x="0.0" y="-49.0" />
+      <point x="695.5" y="295.0" />
+      <point x="742.5625" y="295.0" />
+      <point x="-35.25" y="49.5" />
+    </edge>
+    <edge source="Undervisning17_09_11_2020.Nedarvning_Polimorfi.Peas" target="Undervisning17_09_11_2020.Nedarvning_Polimorfi.Vegetables">
+      <point x="0.0" y="-49.0" />
+      <point x="66.5" y="295.0" />
+      <point x="113.56249999999994" y="295.0" />
+      <point x="-32.0" y="27.0" />
+    </edge>
+    <edge source="Undervisning17_09_11_2020.Nedarvning_Polimorfi.Apple" target="Undervisning17_09_11_2020.Nedarvning_Polimorfi.Fruit">
+      <point x="0.0" y="-49.0" />
+      <point x="383.5" y="295.0" />
+      <point x="425.56249999999994" y="295.0" />
+      <point x="-34.25" y="27.0" />
+    </edge>
+    <edge source="Undervisning17_09_11_2020.Nedarvning_Polimorfi.IcebergSalad" target="Undervisning17_09_11_2020.Nedarvning_Polimorfi.Vegetables">
+      <point x="0.0" y="-49.0" />
+      <point x="225.0" y="295.0" />
+      <point x="177.56249999999994" y="295.0" />
+      <point x="32.0" y="27.0" />
+    </edge>
+    <edge source="Undervisning17_09_11_2020.Nedarvning_Polimorfi.Shots" target="Undervisning17_09_11_2020.Nedarvning_Polimorfi.Liquor">
+      <point x="0.0" y="-49.0" />
+      <point x="860.5" y="295.0" />
+      <point x="813.0625" y="295.0" />
+      <point x="35.25" y="49.5" />
+    </edge>
+    <edge source="Undervisning17_09_11_2020.Nedarvning_Polimorfi.Vegetables" target="Undervisning17_09_11_2020.Nedarvning_Polimorfi.Groceries">
+      <point x="0.0" y="-27.0" />
+      <point x="145.56249999999994" y="146.0" />
+      <point x="408.66666666666663" y="146.0" />
+      <point x="-51.33333333333334" y="60.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="466.5" y="258.5" />
+  <SelectedNodes>
+    <node>Undervisning17_09_11_2020.Nedarvning_Polimorfi.Fruit</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
