@@ -20,6 +20,7 @@ public class Main {
         a.smidUd();
         a.mature = true;
         a.coolDown();
+        a.conserv();
 
         //Create new banana
         Banana b = new Banana();
@@ -28,6 +29,7 @@ public class Main {
         b.smidUd();
         b.mature = true;
         b.coolDown();
+        b.conserv();
 
         //Create new peas
         Peas p = new Peas();
@@ -35,6 +37,7 @@ public class Main {
         p.bestBefore = new Date(1608768000);
         p.freeze();
         p.mature = true;
+        p.fridge();
 
         //Create new Iceberg salad
         IcebergSalad ib = new IcebergSalad();
@@ -42,6 +45,7 @@ public class Main {
         ib.bestBefore = new Date(23213);
         ib.freeze();
         ib.mature = true;
+        ib.fridge();
 
         //Create new wine
         Wine w = new Wine();
@@ -49,6 +53,7 @@ public class Main {
         w.bestBefore = new Date(1231534356);
         w.idCheck = true;
         w.oldEnough();
+        w.liquorDescription();
 
         //Create new Shots
         Shots s = new Shots();
@@ -56,6 +61,7 @@ public class Main {
         s.bestBefore = new Date(21432432);
         s.idCheck = false;
         s.toYoung();
+        s.liquorDescription();
 
     }
 }

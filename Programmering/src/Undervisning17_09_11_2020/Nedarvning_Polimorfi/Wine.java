@@ -7,11 +7,21 @@
  */
 package Undervisning17_09_11_2020.Nedarvning_Polimorfi;
 
-//Wine extending behaviour from Liquior class
-public class Wine extends Liquor {
+//Wine extending behaviour from Liquior class implementing LiquorDescription interface
+public class Wine extends Liquor implements LiquorDescription {
 
     String sort = "Red";
     String type = "Drinkable";
     int alcoholPercent = 12;
+    int ageMin = 16;
+
+    //Overrides method liquorDescription from LiquorDescription interface.
+    @Override
+    public void liquorDescription() {
+        System.out.println("Wine sort: " + sort);
+        System.out.println("Redwhine: " + type);
+        System.out.println("Alcohol %: " + alcoholPercent);
+        System.out.println("Minimum age: " + ageMin);
+    }
 
 }

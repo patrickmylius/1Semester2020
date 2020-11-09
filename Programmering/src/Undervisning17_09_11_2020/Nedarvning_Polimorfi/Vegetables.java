@@ -8,9 +8,16 @@
 package Undervisning17_09_11_2020.Nedarvning_Polimorfi;
 
 
-//Class vegetables extends behaviour from Groceries
-public class Vegetables extends Groceries {
+//Class vegetables extends behaviour from Groceries implementing Fridge interface
+public class Vegetables extends Groceries implements Fridge {
+
     void freeze() {
         System.out.println("Frozen");
     }
+
+    @Override
+    public void fridge() {
+        System.out.println("To avoid rotten vegetables, put them in fridge.");
+    }
+
 }

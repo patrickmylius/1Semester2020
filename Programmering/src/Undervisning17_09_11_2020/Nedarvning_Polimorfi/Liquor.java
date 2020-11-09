@@ -15,13 +15,14 @@ public class Liquor extends Groceries {
     void oldEnough() {
         System.out.println("Cooling down");
     }
+
     void toYoung() {
 
-            System.out.println("Bottle will self destruct in 10..");
-            System.out.println("Bottle will self destruct in 7..");
-            System.out.println("Bottle will self destruct in 3..");
-            System.out.println("Bottle will self destruct in 1..");
-            System.out.println("Klirk!");
+        System.out.println("Bottle will self destruct in 10..");
+        System.out.println("Bottle will self destruct in 7..");
+        System.out.println("Bottle will self destruct in 3..");
+        System.out.println("Bottle will self destruct in 1..");
+        System.out.println("Klirk!");
 
     }
 }

@@ -7,11 +7,17 @@
  */
 package Undervisning17_09_11_2020.Nedarvning_Polimorfi;
 
-//Class fruit, extending behaviour from class Groceries
-public class Fruit extends Groceries {
+//Class fruit, extending behaviour from class Groceries, Implementing interface Conserves
+public class Fruit extends Groceries implements Conserves {
 
     void coolDown() {
         System.out.println("cooled down");
+    }
+
+    //Overriding interface conserv method
+    @Override
+    public void conserv() {
+        System.out.println("Apple, is conserved this date.");
     }
 
 }

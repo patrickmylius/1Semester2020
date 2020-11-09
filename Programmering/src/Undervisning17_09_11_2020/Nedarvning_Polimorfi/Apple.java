@@ -14,4 +14,5 @@ public class Apple extends Fruit {
     String type = "Eatable";
     boolean mature = false;
 
+
 }
