@@ -57,24 +57,54 @@ public class Stock {
         return amount;
     }
 
-    public int amountBanana() {
-        return 0;
+    public int amountBanana(Groceries groceries) {
+        int amount = 0;
+        for (Groceries banana : stockHouse) {
+            if (banana.getClass() == groceries.getClass()) {
+                amount++;
+            }
+        }
+        return amount;
     }
 
-    public int amountIceberg() {
-        return 0;
+    public int amountIceberg(Groceries groceries) {
+        int amount = 0;
+        for (Groceries iceberg : stockHouse) {
+            if (iceberg.getClass() == groceries.getClass()) {
+                amount++;
+            }
+        }
+        return amount;
     }
 
-    public int amountPeas() {
-        return 0;
+    public int amountPeas(Groceries groceries) {
+        int amount = 0;
+        for (Groceries peas : stockHouse) {
+            if (peas.getClass() == groceries.getClass()) {
+                amount++;
+            }
+        }
+        return amount;
     }
 
-    public int amountShots() {
-        return 0;
+    public int amountShots(Groceries groceries) {
+        int amount = 0;
+        for (Groceries shots : stockHouse) {
+            if (shots.getClass() == groceries.getClass()) {
+                amount++;
+            }
+        }
+        return amount;
     }
 
-    public int amountWine() {
-        return 0;
+    public int amountWine(Groceries groceries) {
+        int amount = 0;
+        for (Groceries wine : stockHouse) {
+            if (wine.getClass() == groceries.getClass()) {
+                amount++;
+            }
+        }
+        return amount;
     }
 
 
