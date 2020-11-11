@@ -1,4 +1,4 @@
-package Undervisning17_09_11_2020.Nedarvning_Polimorfi;
+package Undervisning17_09_11_2020.Nedarvning_Polimorfi.main;
 //Interface conserv
 public interface Conserves {
 

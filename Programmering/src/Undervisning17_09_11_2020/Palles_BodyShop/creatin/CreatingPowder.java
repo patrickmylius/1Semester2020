@@ -5,7 +5,10 @@
  * Zealand ErhvervsAkademi - 4700
  * 09-11-2020
  */
-package Undervisning17_09_11_2020.Palles_BodyShop;
+package Undervisning17_09_11_2020.Palles_BodyShop.creatin;
+
+import Undervisning17_09_11_2020.Palles_BodyShop.Creatin;
+import Undervisning17_09_11_2020.Palles_BodyShop.ShoppingList;
 
 public class CreatingPowder extends ShoppingList implements Creatin {
 

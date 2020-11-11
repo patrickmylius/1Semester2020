@@ -5,7 +5,9 @@
  * Zealand ErhvervsAkademi - 4700
  * 09-11-2020
  */
-package Undervisning17_09_11_2020.Nedarvning_Polimorfi;
+package Undervisning17_09_11_2020.Nedarvning_Polimorfi.liquor;
+
+import Undervisning17_09_11_2020.Nedarvning_Polimorfi.main.LiquorDescription;
 
 //Wine extending behaviour from Liquior class implementing LiquorDescription interface
 public class Wine extends Liquor implements LiquorDescription {

@@ -5,18 +5,20 @@
  * Zealand ErhvervsAkademi - 4700
  * 09-11-2020
  */
-package Undervisning17_09_11_2020.Nedarvning_Polimorfi;
+package Undervisning17_09_11_2020.Nedarvning_Polimorfi.liquor;
+
+import Undervisning17_09_11_2020.Nedarvning_Polimorfi.main.Groceries;
 
 //Class Liquor, extending behaviour from class Groceries
 public class Liquor extends Groceries {
 
-    boolean idCheck;
+    public boolean idCheck;
 
-    void oldEnough() {
+    public void oldEnough() {
         System.out.println("Cooling down");
     }
 
-    void toYoung() {
+    public void toYoung() {
 
         System.out.println("Bottle will self destruct in 10..");
         System.out.println("Bottle will self destruct in 7..");

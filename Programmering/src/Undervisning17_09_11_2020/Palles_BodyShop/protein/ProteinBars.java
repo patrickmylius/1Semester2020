@@ -5,7 +5,7 @@
  * Zealand ErhvervsAkademi - 4700
  * 09-11-2020
  */
-package Undervisning17_09_11_2020.Palles_BodyShop;
+package Undervisning17_09_11_2020.Palles_BodyShop.protein;
 
-public class Main {
+public class ProteinBars {
 }

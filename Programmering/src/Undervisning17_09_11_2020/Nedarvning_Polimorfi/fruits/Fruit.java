@@ -5,12 +5,15 @@
  * Zealand ErhvervsAkademi - 4700
  * 09-11-2020
  */
-package Undervisning17_09_11_2020.Nedarvning_Polimorfi;
+package Undervisning17_09_11_2020.Nedarvning_Polimorfi.fruits;
+
+import Undervisning17_09_11_2020.Nedarvning_Polimorfi.main.Conserves;
+import Undervisning17_09_11_2020.Nedarvning_Polimorfi.main.Groceries;
 
 //Class fruit, extending behaviour from class Groceries, Implementing interface Conserves
 public class Fruit extends Groceries implements Conserves {
 
-    void coolDown() {
+    public void coolDown() {
         System.out.println("cooled down");
     }
 

@@ -5,18 +5,18 @@
  * Zealand ErhvervsAkademi - 4700
  * 09-11-2020
  */
-package Undervisning17_09_11_2020.Nedarvning_Polimorfi;
+package Undervisning17_09_11_2020.Nedarvning_Polimorfi.main;
 
 import java.util.Date;
 
 //Class Groceries, holds vars and function for all groceries
 public class Groceries {
 
-    double pricePrPiece;
-    Date bestBefore;
+    public double pricePrPiece;
+    public Date bestBefore;
     boolean canSell = true;
 
-    void smidUd() {
+    public void smidUd() {
         canSell = false;
     }
 }
