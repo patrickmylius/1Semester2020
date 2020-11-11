@@ -118,6 +118,7 @@ public class Stock {
 
 
     public int amountOf(String categori) {
-        return 0;
+        int amount = 0;
+        return amount;
     }
 }
