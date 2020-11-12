@@ -16,6 +16,7 @@ import Undervisning17_09_11_2020.Nedarvning_Polimorfi.vegetables.IcebergSalad;
 import Undervisning17_09_11_2020.Nedarvning_Polimorfi.vegetables.Peas;
 
 import java.util.ArrayList;
+import java.util.Scanner;
 
 public class Stock {
 
