@@ -5,12 +5,13 @@
  * Zealand ErhvervsAkademi - 4700
  * 09-11-2020
  */
-package Undervisning17_09_11_2020.Nedarvning_Polimorfi.main;
+package Undervisning17_09_11_2020.Nedarvning_Polimorfi;
 
 import Undervisning17_09_11_2020.Nedarvning_Polimorfi.fruits.Apple;
 import Undervisning17_09_11_2020.Nedarvning_Polimorfi.fruits.Banana;
 import Undervisning17_09_11_2020.Nedarvning_Polimorfi.liquor.Shots;
 import Undervisning17_09_11_2020.Nedarvning_Polimorfi.liquor.Wine;
+import Undervisning17_09_11_2020.Nedarvning_Polimorfi.main.Stock;
 import Undervisning17_09_11_2020.Nedarvning_Polimorfi.vegetables.IcebergSalad;
 import Undervisning17_09_11_2020.Nedarvning_Polimorfi.vegetables.Peas;
 
@@ -71,6 +72,13 @@ public class Main {
         s.liquorDescription();
 
         Stock stock = new Stock();
+
+
+        Stock headquaters = new Stock();
+        headquaters.fillStock();
+
+        Stock extendStock = new Stock();
+        extendStock.fillStock();
 
 
     }

@@ -2,75 +2,10 @@
 <Diagram>
   <ID>JAVA</ID>
   <OriginalElement>Undervisning17_09_11_2020.Nedarvning_Polimorfi</OriginalElement>
-  <nodes>
-    <node x="511.0" y="320.0">Undervisning17_09_11_2020.Nedarvning_Polimorfi.Shots</node>
-    <node x="82.41249999999991" y="182.5">Undervisning17_09_11_2020.Nedarvning_Polimorfi.Vegetables</node>
-    <node x="317.0" y="320.0">Undervisning17_09_11_2020.Nedarvning_Polimorfi.Wine</node>
-    <node x="0.0" y="342.5">Undervisning17_09_11_2020.Nedarvning_Polimorfi.Peas</node>
-    <node x="431.1624999999999" y="171.0">Undervisning17_09_11_2020.Nedarvning_Polimorfi.Liquor</node>
-    <node x="153.0" y="342.5">Undervisning17_09_11_2020.Nedarvning_Polimorfi.IcebergSalad</node>
-    <node x="858.0" y="342.5">Undervisning17_09_11_2020.Nedarvning_Polimorfi.Banana</node>
-    <node x="0.0" y="508.0">Undervisning17_09_11_2020.Nedarvning_Polimorfi.Main</node>
-    <node x="424.0" y="0.0">Undervisning17_09_11_2020.Nedarvning_Polimorfi.Groceries</node>
-    <node x="705.0" y="342.5">Undervisning17_09_11_2020.Nedarvning_Polimorfi.Apple</node>
-    <node x="780.1624999999999" y="182.5">Undervisning17_09_11_2020.Nedarvning_Polimorfi.Fruit</node>
-  </nodes>
+  <nodes />
   <notes />
-  <edges>
-    <edge source="Undervisning17_09_11_2020.Nedarvning_Polimorfi.Banana" target="Undervisning17_09_11_2020.Nedarvning_Polimorfi.Fruit">
-      <point x="0.0" y="-49.0" />
-      <point x="924.5" y="295.0" />
-      <point x="882.9124999999999" y="295.0" />
-      <point x="34.25" y="38.0" />
-    </edge>
-    <edge source="Undervisning17_09_11_2020.Nedarvning_Polimorfi.Liquor" target="Undervisning17_09_11_2020.Nedarvning_Polimorfi.Groceries">
-      <point x="0.0" y="-49.5" />
-      <point x="0.0" y="60.5" />
-    </edge>
-    <edge source="Undervisning17_09_11_2020.Nedarvning_Polimorfi.Fruit" target="Undervisning17_09_11_2020.Nedarvning_Polimorfi.Groceries">
-      <point x="0.0" y="-38.0" />
-      <point x="848.6624999999999" y="146.0" />
-      <point x="552.3333333333334" y="146.0" />
-      <point x="51.33333333333337" y="60.5" />
-    </edge>
-    <edge source="Undervisning17_09_11_2020.Nedarvning_Polimorfi.Wine" target="Undervisning17_09_11_2020.Nedarvning_Polimorfi.Liquor">
-      <point x="0.0" y="-71.5" />
-      <point x="404.0" y="295.0" />
-      <point x="466.4124999999999" y="295.0" />
-      <point x="-35.25" y="49.5" />
-    </edge>
-    <edge source="Undervisning17_09_11_2020.Nedarvning_Polimorfi.Peas" target="Undervisning17_09_11_2020.Nedarvning_Polimorfi.Vegetables">
-      <point x="0.0" y="-49.0" />
-      <point x="66.5" y="295.0" />
-      <point x="114.41249999999991" y="295.0" />
-      <point x="-32.0" y="38.0" />
-    </edge>
-    <edge source="Undervisning17_09_11_2020.Nedarvning_Polimorfi.Apple" target="Undervisning17_09_11_2020.Nedarvning_Polimorfi.Fruit">
-      <point x="0.0" y="-49.0" />
-      <point x="771.5" y="295.0" />
-      <point x="814.4124999999999" y="295.0" />
-      <point x="-34.25" y="38.0" />
-    </edge>
-    <edge source="Undervisning17_09_11_2020.Nedarvning_Polimorfi.IcebergSalad" target="Undervisning17_09_11_2020.Nedarvning_Polimorfi.Vegetables">
-      <point x="0.0" y="-49.0" />
-      <point x="225.0" y="295.0" />
-      <point x="178.4124999999999" y="295.0" />
-      <point x="32.0" y="38.0" />
-    </edge>
-    <edge source="Undervisning17_09_11_2020.Nedarvning_Polimorfi.Shots" target="Undervisning17_09_11_2020.Nedarvning_Polimorfi.Liquor">
-      <point x="0.0" y="-71.5" />
-      <point x="598.0" y="295.0" />
-      <point x="536.9124999999999" y="295.0" />
-      <point x="35.25" y="49.5" />
-    </edge>
-    <edge source="Undervisning17_09_11_2020.Nedarvning_Polimorfi.Vegetables" target="Undervisning17_09_11_2020.Nedarvning_Polimorfi.Groceries">
-      <point x="0.0" y="-38.0" />
-      <point x="146.4124999999999" y="146.0" />
-      <point x="449.66666666666663" y="146.0" />
-      <point x="-51.333333333333314" y="60.5" />
-    </edge>
-  </edges>
-  <settings layout="Hierarchic Group" zoom="1.0" x="466.5" y="258.5" />
+  <edges />
+  <settings layout="Hierarchic Group" zoom="1.0" x="556.0" y="428.0" />
   <SelectedNodes />
   <Categories>
     <Category>Fields</Category>

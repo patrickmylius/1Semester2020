@@ -16,35 +16,55 @@ import Undervisning17_09_11_2020.Nedarvning_Polimorfi.vegetables.IcebergSalad;
 import Undervisning17_09_11_2020.Nedarvning_Polimorfi.vegetables.Peas;
 
 import java.util.ArrayList;
-import java.util.Scanner;
 
-public class Stock {
+public class Stock extends Groceries {
 
     ArrayList<Groceries> stockHouse = new ArrayList<Groceries>();
 
+    public void fillStock() {
+        fillApple();
+        fillBanana();
+        fillPeas();
+        fillIceberg();
+        fillWine();
+        fillShots();
+    }
+
 
     public void fillApple() {
-        stockHouse.add(new Apple());
+        for (int i = 0; i < 10; i++) {
+            stockHouse.add(new Apple());
+        }
     }
 
     public void fillBanana() {
-        stockHouse.add(new Banana());
+        for (int i = 0; i < 10; i++) {
+            stockHouse.add(new Banana());
+        }
     }
 
     public void fillIceberg() {
-        stockHouse.add(new IcebergSalad());
+        for (int i = 0; i < 10; i++) {
+            stockHouse.add(new IcebergSalad());
+        }
     }
 
     public void fillPeas() {
-        stockHouse.add(new Peas());
+        for (int i = 0; i < 20; i++) {
+            stockHouse.add(new Peas());
+        }
     }
 
     public void fillShots() {
-        stockHouse.add(new Shots());
+        for (int i = 0; i < 20; i++) {
+            stockHouse.add(new Shots());
+        }
     }
 
     public void fillWine() {
-        stockHouse.add(new Wine());
+        for (int i = 0; i < 10; i++) {
+            stockHouse.add(new Wine());
+        }
     }
 
 

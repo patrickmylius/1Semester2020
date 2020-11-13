@@ -12,6 +12,7 @@ import java.util.Date;
 //Class Groceries, holds vars and function for all groceries
 public class Groceries {
 
+    public String name;
     public double pricePrPiece;
     public Date bestBefore;
     boolean canSell = true;
