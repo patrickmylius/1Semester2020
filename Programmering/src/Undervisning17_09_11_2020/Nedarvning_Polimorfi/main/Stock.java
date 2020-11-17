@@ -21,6 +21,8 @@ public class Stock extends Groceries {
 
     ArrayList<Groceries> stockHouse = new ArrayList<Groceries>();
 
+
+
     public void fillStock() {
         fillApple();
         fillBanana();

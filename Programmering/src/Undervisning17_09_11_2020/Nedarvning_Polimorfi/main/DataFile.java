@@ -21,9 +21,18 @@ public class DataFile {
     }
 
     public void save() throws FileNotFoundException {
-        Stock stockhouse = new Stock();
+        Stock headquaters = new Stock();
+        headquaters.fillStock();
 
-        Groceries g1 = stockhouse.stockHouse.get(0);
+        Stock extendStock = new Stock();
+        extendStock.fillStock();
+
+
+        Groceries hq = headquaters.stockHouse.get(0);
+        System.out.println(hq);
+
+        Groceries es = extendStock.stockHouse.get(0);
+        System.out.println(es);
 
         java.io.File file = new java.io.File("data/groceries.txt");
 

@@ -71,15 +71,5 @@ public class Main {
         s.toYoung();
         s.liquorDescription();
 
-        Stock stock = new Stock();
-
-
-        Stock headquaters = new Stock();
-        headquaters.fillStock();
-
-        Stock extendStock = new Stock();
-        extendStock.fillStock();
-
-
     }
 }
